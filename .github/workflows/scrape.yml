@@ -1,8 +1,6 @@
 name: Scrape latest data
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   push:
     branches:
       - master
