@@ -1,5 +1,5 @@
 ----------------------  ----------------------------------------------------
-Last updated:           2024-11-06 10:47 UTC
+Last updated:           2024-11-06 11:00 UTC
 Latest batch received:  (Michigan, Arizona, Wisconsin, Nevada, Pennsylvania)
 Web version:            https://example.com
 ----------------------  ----------------------------------------------------
@@ -37,6 +37,7 @@ Alabama - Total Votes:
 2024-11-06 07:46  trump-d  681,645    63063  2,231,618  trump-d 64.8% / 34.3% harris-k  50.00%  Unknown
 2024-11-06 08:21  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
 2024-11-06 08:21  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
+2024-11-06 08:46  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
 2024-11-06 08:46  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
 2024-11-06 08:46  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
 2024-11-06 08:46  trump-d  685,088    31912  2,239,999  trump-d 64.8% / 34.2% harris-k  50.00%  Unknown
@@ -84,6 +85,7 @@ Alaska - Total Votes:
 2024-11-06 09:02  trump-d   37,468   90137  243,704  trump-d 55.8% / 40.4% harris-k  50.00%  Unknown
 2024-11-06 09:02  trump-d   37,468   90137  243,704  trump-d 55.8% / 40.4% harris-k  50.00%  Unknown
 2024-11-06 09:02  trump-d   37,468   90137  243,704  trump-d 55.8% / 40.4% harris-k  50.00%  Unknown
+2024-11-06 09:02  trump-d   37,468   90137  243,704  trump-d 55.8% / 40.4% harris-k  50.00%  Unknown
 ----------------  --------  ------  ------  -------  ------------------------------  ------  -------
 
 Arizona - Total Votes:
@@ -125,6 +127,7 @@ Arizona - Total Votes:
 2024-11-06 09:44  trump-d   50,996   1709582  1,986,263  trump-d 50.9% / 48.3% harris-k  50.00%  Unknown
 2024-11-06 10:27  trump-d   55,749   1692009  2,003,836  trump-d 51.0% / 48.2% harris-k  50.00%  Unknown
 2024-11-06 10:37  trump-d   105,247  1484495  2,211,649  trump-d 51.9% / 47.2% harris-k  50.00%  Unknown
+2024-11-06 10:55  trump-d   103,355  1478387  2,217,757  trump-d 51.9% / 47.2% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Arkansas - Total Votes:
@@ -164,6 +167,7 @@ Arkansas - Total Votes:
 2024-11-06 08:55  trump-d   360,837    17253  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
 2024-11-06 08:55  trump-d   360,837    17253  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
 2024-11-06 08:55  trump-d   360,837    17253  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
+2024-11-06 10:06  trump-d   360,837    16985  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
 2024-11-06 10:06  trump-d   360,837    16985  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
 2024-11-06 10:06  trump-d   360,837    16985  1,172,392  trump-d 64.3% / 33.5% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
@@ -207,6 +211,7 @@ California - Total Votes:
 2024-11-06 09:55  harris-k  1,728,892   8821107  9,320,536  harris-k 58.0% / 39.4% trump-d  50.00%  Unknown
 2024-11-06 10:21  harris-k  1,707,323   8737769  9,403,874  harris-k 57.8% / 39.6% trump-d  50.00%  Unknown
 2024-11-06 10:42  harris-k  1,723,418   8620739  9,520,904  harris-k 57.8% / 39.7% trump-d  50.00%  Unknown
+2024-11-06 10:53  harris-k  1,724,257   8582169  9,559,474  harris-k 57.7% / 39.7% trump-d  50.00%  Unknown
 ----------------  --------  ---------  --------  ---------  ------------------------------  ------  -------
 
 Colorado - Total Votes:
@@ -247,6 +252,7 @@ Colorado - Total Votes:
 2024-11-06 09:42  harris-k  288,198  1129607  2,499,518  harris-k 54.6% / 43.1% trump-d  50.00%  Unknown
 2024-11-06 09:57  harris-k  288,198  1129607  2,499,518  harris-k 54.6% / 43.1% trump-d  50.00%  Unknown
 2024-11-06 10:10  harris-k  288,198   878209  2,499,518  harris-k 54.6% / 43.1% trump-d  50.00%  Unknown
+2024-11-06 10:40  harris-k  289,363   859738  2,517,989  harris-k 54.6% / 43.1% trump-d  50.00%  Unknown
 2024-11-06 10:40  harris-k  289,363   859738  2,517,989  harris-k 54.6% / 43.1% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
@@ -289,6 +295,7 @@ Connecticut - Total Votes:
 2024-11-06 09:53  harris-k  135,749   325437  1,387,707  harris-k 54.0% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 09:53  harris-k  135,749   325437  1,387,707  harris-k 54.0% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 10:34  harris-k  142,703   307157  1,405,987  harris-k 54.2% / 44.1% trump-d  50.00%  Unknown
+2024-11-06 10:49  harris-k  144,632   290531  1,422,613  harris-k 54.2% / 44.1% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Delaware - Total Votes:
@@ -323,6 +330,7 @@ Delaware - Total Votes:
 2024-11-06 05:04  harris-k  72,822   55729  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
 2024-11-06 05:04  harris-k  72,822   55729  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
 2024-11-06 05:04  harris-k  72,822   55729  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
+2024-11-06 08:35  harris-k  72,822    5105  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
 2024-11-06 08:35  harris-k  72,822    5105  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
 2024-11-06 08:35  harris-k  72,822    5105  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
 2024-11-06 08:35  harris-k  72,822    5105  505,420  harris-k 56.5% / 42.1% trump-d  50.00%  Unknown
@@ -371,6 +379,7 @@ Florida - Total Votes:
 2024-11-06 09:17  trump-d  1,430,205    86860  10,869,099  trump-d 56.1% / 43.0% harris-k  50.00%  Unknown
 2024-11-06 09:17  trump-d  1,430,205    86860  10,869,099  trump-d 56.1% / 43.0% harris-k  50.00%  Unknown
 2024-11-06 09:17  trump-d  1,430,205    86860  10,869,099  trump-d 56.1% / 43.0% harris-k  50.00%  Unknown
+2024-11-06 09:17  trump-d  1,430,205    86860  10,869,099  trump-d 56.1% / 43.0% harris-k  50.00%  Unknown
 ----------------  -------  ---------  -------  ----------  ------------------------------  ------  -------
 
 Georgia - Total Votes:
@@ -409,6 +418,7 @@ Georgia - Total Votes:
 2024-11-06 08:52  trump-d  119,180   152547  5,215,936  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
 2024-11-06 08:52  trump-d  119,180   152547  5,215,936  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
 2024-11-06 08:52  trump-d  119,180   152547  5,215,936  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
+2024-11-06 09:49  trump-d  117,385   144786  5,223,697  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
 2024-11-06 09:49  trump-d  117,385   144786  5,223,697  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
 2024-11-06 09:49  trump-d  117,385   144786  5,223,697  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
 2024-11-06 09:49  trump-d  117,385   144786  5,223,697  trump-d 50.8% / 48.5% harris-k  50.00%  Unknown
@@ -453,6 +463,7 @@ Hawaii - Total Votes:
 2024-11-06 05:00  harris-k  0        585267  0        N/A                             35.24%  Unknown
 2024-11-06 10:16  harris-k  120,833  150357  434,910  harris-k 63.0% / 35.2% trump-d  50.00%  Unknown
 2024-11-06 10:38  harris-k  115,783  140824  444,443  harris-k 62.2% / 36.1% trump-d  50.00%  Unknown
+2024-11-06 10:38  harris-k  115,783  140824  444,443  harris-k 62.2% / 36.1% trump-d  50.00%  Unknown
 ----------------  --------  -------  ------  -------  ------------------------------  ------  -------
 
 Idaho - Total Votes:
@@ -494,6 +505,7 @@ Idaho - Total Votes:
 2024-11-06 09:57  trump-d   285,883   97786  777,314  trump-d 67.0% / 30.3% harris-k  50.00%  Unknown
 2024-11-06 10:22  trump-d   290,566   66120  808,980  trump-d 66.6% / 30.7% harris-k  50.00%  Unknown
 2024-11-06 10:40  trump-d   292,522   58019  817,081  trump-d 66.5% / 30.7% harris-k  50.00%  Unknown
+2024-11-06 10:40  trump-d   292,522   58019  817,081  trump-d 66.5% / 30.7% harris-k  50.00%  Unknown
 ----------------  --------  -------  ------  -------  ------------------------------  ------  -------
 
 Illinois - Total Votes:
@@ -532,6 +544,7 @@ Illinois - Total Votes:
 2024-11-06 08:55  harris-k  415,523   399601  5,176,825  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
 2024-11-06 08:55  harris-k  415,523   399601  5,176,825  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
 2024-11-06 09:44  harris-k  415,523   397181  5,176,825  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
+2024-11-06 09:52  harris-k  418,952   374993  5,196,532  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  418,952   374993  5,196,532  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  418,952   374993  5,196,532  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  418,952   374993  5,196,532  harris-k 53.3% / 45.3% trump-d  50.00%  Unknown
@@ -576,6 +589,7 @@ Indiana - Total Votes:
 2024-11-06 09:03  trump-d  542,244   318635  2,727,566  trump-d 59.1% / 39.2% harris-k  50.00%  Unknown
 2024-11-06 10:24  trump-d  542,244   318635  2,727,566  trump-d 59.1% / 39.2% harris-k  50.00%  Unknown
 2024-11-06 10:24  trump-d  542,244   318635  2,727,566  trump-d 59.1% / 39.2% harris-k  50.00%  Unknown
+2024-11-06 10:24  trump-d  542,244   318635  2,727,566  trump-d 59.1% / 39.2% harris-k  50.00%  Unknown
 ----------------  -------  -------  -------  ---------  ------------------------------  ------  -------
 
 Iowa - Total Votes:
@@ -617,6 +631,7 @@ Iowa - Total Votes:
 2024-11-06 08:45  trump-d   223,320    79189  1,597,752  trump-d 56.3% / 42.3% harris-k  50.00%  Unknown
 2024-11-06 10:26  trump-d   223,320    79189  1,597,752  trump-d 56.3% / 42.3% harris-k  50.00%  Unknown
 2024-11-06 10:26  trump-d   223,320    79189  1,597,752  trump-d 56.3% / 42.3% harris-k  50.00%  Unknown
+2024-11-06 10:26  trump-d   223,320    79189  1,597,752  trump-d 56.3% / 42.3% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Kansas - Total Votes:
@@ -653,6 +668,7 @@ Kansas - Total Votes:
 2024-11-06 08:20  trump-d   212,087    14571  1,281,055  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
 2024-11-06 08:20  trump-d   212,087    14571  1,281,055  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
 2024-11-06 08:57  trump-d   212,318    12555  1,281,413  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
+2024-11-06 09:04  trump-d   212,318    12555  1,281,413  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
 2024-11-06 09:04  trump-d   212,318    12555  1,281,413  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
 2024-11-06 09:04  trump-d   212,318    12555  1,281,413  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
 2024-11-06 09:04  trump-d   212,318    12555  1,281,413  trump-d 57.4% / 40.8% harris-k  50.00%  Unknown
@@ -699,6 +715,7 @@ Kentucky - Total Votes:
 2024-11-06 08:39  trump-d  634,910    37671  2,067,816  trump-d 64.6% / 33.9% harris-k  50.00%  Unknown
 2024-11-06 08:39  trump-d  634,910    37671  2,067,816  trump-d 64.6% / 33.9% harris-k  50.00%  Unknown
 2024-11-06 08:39  trump-d  634,910    37671  2,067,816  trump-d 64.6% / 33.9% harris-k  50.00%  Unknown
+2024-11-06 08:39  trump-d  634,910    37671  2,067,816  trump-d 64.6% / 33.9% harris-k  50.00%  Unknown
 ----------------  -------  -------  -------  ---------  ------------------------------  ------  -------
 
 Louisiana - Total Votes:
@@ -722,6 +739,7 @@ Louisiana - Total Votes:
 2024-11-06 03:57  trump-d   470,170   376060  1,780,735  trump-d 62.4% / 36.0% harris-k  50.00%  Unknown
 2024-11-06 04:24  trump-d   411,493   123008  1,912,586  trump-d 60.0% / 38.5% harris-k  50.00%  Unknown
 2024-11-06 04:38  trump-d   407,349   109228  1,926,428  trump-d 59.8% / 38.6% harris-k  50.00%  Unknown
+2024-11-06 04:59  trump-d   441,828    18676  2,006,224  trump-d 60.2% / 38.2% harris-k  50.00%  Unknown
 2024-11-06 04:59  trump-d   441,828    18676  2,006,224  trump-d 60.2% / 38.2% harris-k  50.00%  Unknown
 2024-11-06 04:59  trump-d   441,828    18676  2,006,224  trump-d 60.2% / 38.2% harris-k  50.00%  Unknown
 2024-11-06 04:59  trump-d   441,828    18676  2,006,224  trump-d 60.2% / 38.2% harris-k  50.00%  Unknown
@@ -843,6 +861,7 @@ Maine - Total Votes:
 2024-11-06 08:56  harris-k  74,365  132119  311,418  harris-k 60.4% / 36.6% trump-d  50.00%  Unknown
 2024-11-06 08:56  harris-k  74,365  132119  311,418  harris-k 60.4% / 36.6% trump-d  50.00%  Unknown
 2024-11-06 08:56  harris-k  74,365  132119  311,418  harris-k 60.4% / 36.6% trump-d  50.00%  Unknown
+2024-11-06 08:56  harris-k  74,365  132119  311,418  harris-k 60.4% / 36.6% trump-d  50.00%  Unknown
 2024-11-06 08:57  trump-d   22,616  111679  288,636  trump-d 52.8% / 45.0% harris-k  50.00%  Unknown
 2024-11-06 08:57  harris-k  53,679  235497  607,559  harris-k 53.1% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 09:12  trump-d   22,838  111064  289,297  trump-d 52.9% / 45.0% harris-k  50.00%  Unknown
@@ -851,6 +870,8 @@ Maine - Total Votes:
 2024-11-06 09:43  trump-d   22,838  111152  289,297  trump-d 52.9% / 45.0% harris-k  50.00%  Unknown
 2024-11-06 09:43  trump-d   22,838  111152  289,297  trump-d 52.9% / 45.0% harris-k  50.00%  Unknown
 2024-11-06 09:43  trump-d   22,838  111152  289,297  trump-d 52.9% / 45.0% harris-k  50.00%  Unknown
+2024-11-06 09:43  trump-d   22,838  111152  289,297  trump-d 52.9% / 45.0% harris-k  50.00%  Unknown
+2024-11-06 09:43  harris-k  53,457  234970  608,220  harris-k 53.1% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 09:43  harris-k  53,457  234970  608,220  harris-k 53.1% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 09:43  harris-k  53,457  234970  608,220  harris-k 53.1% / 44.3% trump-d  50.00%  Unknown
 2024-11-06 09:43  harris-k  53,457  234970  608,220  harris-k 53.1% / 44.3% trump-d  50.00%  Unknown
@@ -896,6 +917,7 @@ Maryland - Total Votes:
 2024-11-06 09:34  harris-k  564,860   661759  2,468,728  harris-k 60.2% / 37.3% trump-d  50.00%  Unknown
 2024-11-06 09:34  harris-k  564,860   661759  2,468,728  harris-k 60.2% / 37.3% trump-d  50.00%  Unknown
 2024-11-06 09:34  harris-k  564,860   661759  2,468,728  harris-k 60.2% / 37.3% trump-d  50.00%  Unknown
+2024-11-06 09:34  harris-k  564,860   661759  2,468,728  harris-k 60.2% / 37.3% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Massachusetts - Total Votes:
@@ -934,6 +956,7 @@ Massachusetts - Total Votes:
 2024-11-06 08:58  harris-k  807,302   406681  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
 2024-11-06 09:03  harris-k  807,302   405934  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
 2024-11-06 09:37  harris-k  807,302   405934  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
+2024-11-06 09:52  harris-k  807,302   360690  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  807,302   360690  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  807,302   360690  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
 2024-11-06 09:52  harris-k  807,302   360690  3,108,386  harris-k 61.9% / 35.9% trump-d  50.00%  Unknown
@@ -978,6 +1001,7 @@ Michigan - Total Votes:
 2024-11-06 09:57  trump-d   98,960    423578  5,294,492  trump-d 50.0% / 48.1% harris-k  50.00%  Unknown
 2024-11-06 10:27  trump-d   103,270   352441  5,363,819  trump-d 50.0% / 48.1% harris-k  50.00%  Unknown
 2024-11-06 10:43  trump-d   110,839   304357  5,411,874  trump-d 50.1% / 48.1% harris-k  50.00%  Unknown
+2024-11-06 10:56  trump-d   108,685   284044  5,422,001  trump-d 50.1% / 48.1% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Minnesota - Total Votes:
@@ -1019,6 +1043,7 @@ Minnesota - Total Votes:
 2024-11-06 09:49  harris-k  143,156    46213  3,227,874  harris-k 51.2% / 46.8% trump-d  50.00%  Unknown
 2024-11-06 10:19  harris-k  143,371    45316  3,228,771  harris-k 51.2% / 46.7% trump-d  50.00%  Unknown
 2024-11-06 10:19  harris-k  143,371    45316  3,228,771  harris-k 51.2% / 46.7% trump-d  50.00%  Unknown
+2024-11-06 10:19  harris-k  143,371    45316  3,228,771  harris-k 51.2% / 46.7% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Mississippi - Total Votes:
@@ -1052,6 +1077,7 @@ Mississippi - Total Votes:
 2024-11-06 06:54  trump-d  250,132    18308  1,070,563  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 07:35  trump-d  251,031    17087  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 07:35  trump-d  251,031    17087  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
+2024-11-06 08:03  trump-d  251,031    18320  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 08:03  trump-d  251,031    18320  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 08:03  trump-d  251,031    18320  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 08:03  trump-d  251,031    18320  1,071,784  trump-d 61.1% / 37.7% harris-k  50.00%  Unknown
@@ -1101,6 +1127,7 @@ Missouri - Total Votes:
 2024-11-06 09:43  trump-d   536,633    43282  2,929,228  trump-d 58.5% / 40.2% harris-k  50.00%  Unknown
 2024-11-06 09:43  trump-d   536,633    43282  2,929,228  trump-d 58.5% / 40.2% harris-k  50.00%  Unknown
 2024-11-06 09:43  trump-d   536,633    43282  2,929,228  trump-d 58.5% / 40.2% harris-k  50.00%  Unknown
+2024-11-06 09:43  trump-d   536,633    43282  2,929,228  trump-d 58.5% / 40.2% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Montana - Total Votes:
@@ -1142,6 +1169,7 @@ Montana - Total Votes:
 2024-11-06 09:57  trump-d   93,302  178729  432,585  trump-d 59.3% / 37.7% harris-k  50.00%  Unknown
 2024-11-06 10:27  trump-d   95,096  151268  438,106  trump-d 59.3% / 37.6% harris-k  50.00%  Unknown
 2024-11-06 10:43  trump-d   98,888  138937  450,437  trump-d 59.5% / 37.5% harris-k  50.00%  Unknown
+2024-11-06 10:57  trump-d   99,063  132737  456,637  trump-d 59.3% / 37.6% harris-k  50.00%  Unknown
 ----------------  --------  ------  ------  -------  ------------------------------  ------  -------
 
 Nebraska - Total Votes:
@@ -1291,8 +1319,12 @@ Nebraska - Total Votes:
 2024-11-06 10:15  harris-k  12,428      182  297,662  harris-k 51.4% / 47.3% trump-d  50.00%  Unknown
 2024-11-06 10:15  trump-d   40,326     2115  301,716  trump-d 56.0% / 42.6% harris-k  50.00%  Unknown
 2024-11-06 10:33  harris-k  12,428     3239  297,662  harris-k 51.4% / 47.3% trump-d  50.00%  Unknown
+2024-11-06 10:33  harris-k  12,428     3239  297,662  harris-k 51.4% / 47.3% trump-d  50.00%  Unknown
+2024-11-06 10:33  trump-d   166,748    3127  309,882  trump-d 76.3% / 22.5% harris-k  50.00%  Unknown
 2024-11-06 10:33  trump-d   166,748    3127  309,882  trump-d 76.3% / 22.5% harris-k  50.00%  Unknown
 2024-11-06 10:34  trump-d   194,646   15032  909,260  trump-d 60.1% / 38.7% harris-k  50.00%  Unknown
+2024-11-06 10:34  trump-d   194,646   15032  909,260  trump-d 60.1% / 38.7% harris-k  50.00%  Unknown
+2024-11-06 10:34  trump-d   40,326     8666  301,716  trump-d 56.0% / 42.6% harris-k  50.00%  Unknown
 2024-11-06 10:34  trump-d   40,326     8666  301,716  trump-d 56.0% / 42.6% harris-k  50.00%  Unknown
 ----------------  --------  -------  ------  -------  ------------------------------  ------  -------
 
@@ -1335,6 +1367,7 @@ Nevada - Total Votes:
 2024-11-06 09:48  trump-d   59,862   242865  1,284,132  trump-d 51.5% / 46.8% harris-k  50.00%  Unknown
 2024-11-06 09:48  trump-d   59,862   242865  1,284,132  trump-d 51.5% / 46.8% harris-k  50.00%  Unknown
 2024-11-06 09:48  trump-d   59,862   242865  1,284,132  trump-d 51.5% / 46.8% harris-k  50.00%  Unknown
+2024-11-06 09:48  trump-d   59,862   242865  1,284,132  trump-d 51.5% / 46.8% harris-k  50.00%  Unknown
 ----------------  --------  ------  -------  ---------  ------------------------------  ------  -------
 
 New Hampshire - Total Votes:
@@ -1370,6 +1403,7 @@ New Hampshire - Total Votes:
 2024-11-06 07:53  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
 2024-11-06 08:14  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
 2024-11-06 08:41  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
+2024-11-06 08:59  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
 2024-11-06 08:59  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
 2024-11-06 08:59  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
 2024-11-06 08:59  harris-k  23,338   89099  750,901  harris-k 51.1% / 47.9% trump-d  50.00%  Unknown
@@ -1417,6 +1451,7 @@ New Jersey - Total Votes:
 2024-11-06 09:21  harris-k  197,692   318267  4,046,364  harris-k 51.5% / 46.6% trump-d  50.00%  Unknown
 2024-11-06 10:08  harris-k  197,692   293032  4,046,364  harris-k 51.5% / 46.6% trump-d  50.00%  Unknown
 2024-11-06 10:08  harris-k  197,692   293032  4,046,364  harris-k 51.5% / 46.6% trump-d  50.00%  Unknown
+2024-11-06 10:08  harris-k  197,692   293032  4,046,364  harris-k 51.5% / 46.6% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 New Mexico - Total Votes:
@@ -1458,6 +1493,7 @@ New Mexico - Total Votes:
 2024-11-06 08:43  harris-k  50,727   16225  910,040  harris-k 51.6% / 46.1% trump-d  50.00%  Unknown
 2024-11-06 08:43  harris-k  50,727   16225  910,040  harris-k 51.6% / 46.1% trump-d  50.00%  Unknown
 2024-11-06 08:43  harris-k  50,727   16225  910,040  harris-k 51.6% / 46.1% trump-d  50.00%  Unknown
+2024-11-06 08:43  harris-k  50,727   16225  910,040  harris-k 51.6% / 46.1% trump-d  50.00%  Unknown
 ----------------  --------  ------  ------  -------  ------------------------------  ------  -------
 
 New York - Total Votes:
@@ -1491,6 +1527,7 @@ New York - Total Votes:
 2024-11-06 07:24  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
 2024-11-06 07:38  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
 2024-11-06 07:38  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
+2024-11-06 08:13  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
 2024-11-06 08:13  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
 2024-11-06 08:13  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
 2024-11-06 08:13  harris-k  813,296     304774  7,490,458  harris-k 55.4% / 44.6% trump-d  50.00%  Unknown
@@ -1540,6 +1577,7 @@ North Carolina - Total Votes:
 2024-11-06 08:53  trump-d   191,543    56810  5,624,232  trump-d 51.1% / 47.7% harris-k  50.00%  Unknown
 2024-11-06 08:53  trump-d   191,543    56810  5,624,232  trump-d 51.1% / 47.7% harris-k  50.00%  Unknown
 2024-11-06 08:53  trump-d   191,543    56810  5,624,232  trump-d 51.1% / 47.7% harris-k  50.00%  Unknown
+2024-11-06 08:53  trump-d   191,543    56810  5,624,232  trump-d 51.1% / 47.7% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 North Dakota - Total Votes:
@@ -1576,6 +1614,7 @@ North Dakota - Total Votes:
 2024-11-06 06:55  trump-d   130,125    5687  357,930  trump-d 67.3% / 31.0% harris-k  50.00%  Unknown
 2024-11-06 08:36  trump-d   133,963    -738  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
 2024-11-06 08:52  trump-d   133,963    -738  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
+2024-11-06 09:08  trump-d   133,963    3680  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
 2024-11-06 09:08  trump-d   133,963    3680  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
 2024-11-06 09:08  trump-d   133,963    3680  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
 2024-11-06 09:08  trump-d   133,963    3680  364,355  trump-d 67.5% / 30.8% harris-k  50.00%  Unknown
@@ -1622,6 +1661,7 @@ Ohio - Total Votes:
 2024-11-06 09:04  trump-d   640,576    57294  5,642,589  trump-d 55.2% / 43.9% harris-k  50.00%  Unknown
 2024-11-06 09:04  trump-d   640,576    57294  5,642,589  trump-d 55.2% / 43.9% harris-k  50.00%  Unknown
 2024-11-06 09:04  trump-d   640,576    57294  5,642,589  trump-d 55.2% / 43.9% harris-k  50.00%  Unknown
+2024-11-06 09:04  trump-d   640,576    57294  5,642,589  trump-d 55.2% / 43.9% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Oklahoma - Total Votes:
@@ -1650,6 +1690,7 @@ Oklahoma - Total Votes:
 2024-11-06 05:07  trump-d  536,176    15787  1,564,575  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
 2024-11-06 05:07  trump-d  536,176    15787  1,564,575  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
 2024-11-06 05:07  trump-d  536,176    15787  1,564,575  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
+2024-11-06 06:42  trump-d  536,174    15789  1,564,573  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
 2024-11-06 06:42  trump-d  536,174    15789  1,564,573  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
 2024-11-06 06:42  trump-d  536,174    15789  1,564,573  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
 2024-11-06 06:42  trump-d  536,174    15789  1,564,573  trump-d 66.2% / 31.9% harris-k  50.00%  Unknown
@@ -1704,6 +1745,7 @@ Oregon - Total Votes:
 2024-11-06 09:56  harris-k  214,541   605172  1,695,899  harris-k 55.0% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 10:17  harris-k  214,413   643159  1,703,526  harris-k 55.0% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 10:17  harris-k  214,413   643159  1,703,526  harris-k 55.0% / 42.4% trump-d  50.00%  Unknown
+2024-11-06 10:46  harris-k  213,409   641418  1,705,267  harris-k 54.9% / 42.4% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Pennsylvania - Total Votes:
@@ -1745,6 +1787,7 @@ Pennsylvania - Total Votes:
 2024-11-06 09:57  trump-d   171,874   269355  6,727,856  trump-d 50.8% / 48.2% harris-k  50.00%  Unknown
 2024-11-06 10:25  trump-d   167,375   257684  6,737,652  trump-d 50.8% / 48.3% harris-k  50.00%  Unknown
 2024-11-06 10:43  trump-d   165,220   239892  6,753,117  trump-d 50.7% / 48.3% harris-k  50.00%  Unknown
+2024-11-06 10:53  trump-d   170,601   230503  6,762,506  trump-d 50.8% / 48.3% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Rhode Island - Total Votes:
@@ -1781,6 +1824,7 @@ Rhode Island - Total Votes:
 2024-11-06 08:24  harris-k  64,431   30486  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 08:24  harris-k  64,431   30486  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 08:24  harris-k  64,431   30486  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
+2024-11-06 09:14  harris-k  64,431    4979  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 09:14  harris-k  64,431    4979  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 09:14  harris-k  64,431    4979  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
 2024-11-06 09:14  harris-k  64,431    4979  493,101  harris-k 55.5% / 42.4% trump-d  50.00%  Unknown
@@ -1827,6 +1871,7 @@ South Carolina - Total Votes:
 2024-11-06 09:17  trump-d  439,159    39429  2,503,749  trump-d 58.1% / 40.5% harris-k  50.00%  Unknown
 2024-11-06 09:17  trump-d  439,159    39429  2,503,749  trump-d 58.1% / 40.5% harris-k  50.00%  Unknown
 2024-11-06 09:17  trump-d  439,159    39429  2,503,749  trump-d 58.1% / 40.5% harris-k  50.00%  Unknown
+2024-11-06 09:17  trump-d  439,159    39429  2,503,749  trump-d 58.1% / 40.5% harris-k  50.00%  Unknown
 ----------------  -------  -------  -------  ---------  ------------------------------  ------  -------
 
 South Dakota - Total Votes:
@@ -1868,6 +1913,7 @@ South Dakota - Total Votes:
 2024-11-06 09:55  trump-d   108,410  113382  325,887  trump-d 65.5% / 32.2% harris-k  50.00%  Unknown
 2024-11-06 10:15  trump-d   108,833  100866  326,794  trump-d 65.5% / 32.2% harris-k  50.00%  Unknown
 2024-11-06 10:42  trump-d   109,964   92356  335,304  trump-d 65.2% / 32.5% harris-k  50.00%  Unknown
+2024-11-06 10:55  trump-d   110,447   82917  344,743  trump-d 64.9% / 32.8% harris-k  50.00%  Unknown
 ----------------  --------  -------  ------  -------  ------------------------------  ------  -------
 
 Tennessee - Total Votes:
@@ -1902,6 +1948,7 @@ Tennessee - Total Votes:
 2024-11-06 07:02  trump-d  913,481    30722  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
 2024-11-06 07:02  trump-d  913,481    30722  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
 2024-11-06 08:12  trump-d  913,481    30371  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
+2024-11-06 08:36  trump-d  913,481    30371  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
 2024-11-06 08:36  trump-d  913,481    30371  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
 2024-11-06 08:36  trump-d  913,481    30371  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
 2024-11-06 08:36  trump-d  913,481    30371  3,051,172  trump-d 64.3% / 34.4% harris-k  50.00%  Unknown
@@ -1950,6 +1997,7 @@ Texas - Total Votes:
 2024-11-06 09:52  trump-d  1,567,777   499331  11,100,669  trump-d 56.4% / 42.3% harris-k  50.00%  Unknown
 2024-11-06 10:06  trump-d  1,566,039   307420  11,292,580  trump-d 56.3% / 42.4% harris-k  50.00%  Unknown
 2024-11-06 10:06  trump-d  1,566,039   307420  11,292,580  trump-d 56.3% / 42.4% harris-k  50.00%  Unknown
+2024-11-06 10:55  trump-d  1,573,178   292711  11,307,289  trump-d 56.3% / 42.4% harris-k  50.00%  Unknown
 ----------------  -------  ---------  -------  ----------  ------------------------------  ------  -------
 
 Utah - Total Votes:
@@ -1991,6 +2039,7 @@ Utah - Total Votes:
 2024-11-06 09:33  trump-d   189,428   578072  947,600  trump-d 58.9% / 38.9% harris-k  50.00%  Unknown
 2024-11-06 09:33  trump-d   189,428   578072  947,600  trump-d 58.9% / 38.9% harris-k  50.00%  Unknown
 2024-11-06 09:33  trump-d   189,428   578072  947,600  trump-d 58.9% / 38.9% harris-k  50.00%  Unknown
+2024-11-06 09:33  trump-d   189,428   578072  947,600  trump-d 58.9% / 38.9% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  -------  ------------------------------  ------  -------
 
 Vermont - Total Votes:
@@ -2019,6 +2068,7 @@ Vermont - Total Votes:
 2024-11-06 05:40  harris-k  114,630   13733  360,100  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
 2024-11-06 05:47  harris-k  114,630   13733  360,100  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
 2024-11-06 06:27  harris-k  116,340    7529  366,241  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
+2024-11-06 06:33  harris-k  116,340    3702  366,241  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
 2024-11-06 06:33  harris-k  116,340    3702  366,241  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
 2024-11-06 06:33  harris-k  116,340    3702  366,241  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
 2024-11-06 06:33  harris-k  116,340    3702  366,241  harris-k 64.4% / 32.6% trump-d  50.00%  Unknown
@@ -2073,6 +2123,7 @@ Virginia - Total Votes:
 2024-11-06 09:52  harris-k  225,513    51119  4,294,361  harris-k 51.8% / 46.6% trump-d  50.00%  Unknown
 2024-11-06 10:02  harris-k  225,513    51119  4,294,361  harris-k 51.8% / 46.6% trump-d  50.00%  Unknown
 2024-11-06 10:02  harris-k  225,513    51119  4,294,361  harris-k 51.8% / 46.6% trump-d  50.00%  Unknown
+2024-11-06 10:46  harris-k  225,513    51119  4,294,361  harris-k 51.8% / 46.6% trump-d  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Washington - Total Votes:
@@ -2101,6 +2152,7 @@ Washington - Total Votes:
 2024-11-06 05:32  harris-k  508,681  1756240  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
 2024-11-06 05:52  harris-k  508,681  1872610  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
 2024-11-06 06:31  harris-k  508,681  1642917  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
+2024-11-06 06:37  harris-k  508,681  1598027  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
 2024-11-06 06:37  harris-k  508,681  1598027  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
 2024-11-06 06:37  harris-k  508,681  1598027  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
 2024-11-06 06:37  harris-k  508,681  1598027  2,606,402  harris-k 58.6% / 39.1% trump-d  50.00%  Unknown
@@ -2155,6 +2207,7 @@ Washington, D.C. - Total Votes:
 2024-11-06 07:00  harris-k  237,230   74317  276,917  harris-k 92.4% / 6.7% trump-d  50.00%  Unknown
 2024-11-06 07:00  harris-k  237,230   74317  276,917  harris-k 92.4% / 6.7% trump-d  50.00%  Unknown
 2024-11-06 07:00  harris-k  237,230   74317  276,917  harris-k 92.4% / 6.7% trump-d  50.00%  Unknown
+2024-11-06 07:00  harris-k  237,230   74317  276,917  harris-k 92.4% / 6.7% trump-d  50.00%  Unknown
 ----------------  --------  -------  ------  -------  -----------------------------  ------  -------
 
 West Virginia - Total Votes:
@@ -2192,6 +2245,7 @@ West Virginia - Total Votes:
 2024-11-06 07:58  trump-d  315,101   34222  745,995  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
 2024-11-06 08:58  trump-d  315,674   33267  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
 2024-11-06 08:58  trump-d  315,674   33267  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
+2024-11-06 09:36  trump-d  315,674   33844  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
 2024-11-06 09:36  trump-d  315,674   33844  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
 2024-11-06 09:36  trump-d  315,674   33844  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
 2024-11-06 09:36  trump-d  315,674   33844  746,950  trump-d 70.2% / 27.9% harris-k  50.00%  Unknown
@@ -2237,6 +2291,7 @@ Wisconsin - Total Votes:
 2024-11-06 09:54  trump-d   111,419   213245  3,228,492  trump-d 51.0% / 47.6% harris-k  50.00%  Unknown
 2024-11-06 10:27  trump-d   111,419   213245  3,228,492  trump-d 51.0% / 47.6% harris-k  50.00%  Unknown
 2024-11-06 10:42  trump-d   41,803     97665  3,338,425  trump-d 49.9% / 48.6% harris-k  50.00%  Unknown
+2024-11-06 10:56  trump-d   32,192     68115  3,370,042  trump-d 49.8% / 48.8% harris-k  50.00%  Unknown
 ----------------  --------  -------  -------  ---------  ------------------------------  ------  -------
 
 Wyoming - Total Votes:
@@ -2273,6 +2328,7 @@ Wyoming - Total Votes:
 2024-11-06 08:26  trump-d   121,319   29238  256,222  trump-d 72.9% / 25.5% harris-k  50.00%  Unknown
 2024-11-06 08:41  trump-d   122,136   25000  260,460  trump-d 72.7% / 25.8% harris-k  50.00%  Unknown
 2024-11-06 08:58  trump-d   122,136   21769  260,460  trump-d 72.7% / 25.8% harris-k  50.00%  Unknown
+2024-11-06 09:18  trump-d   123,068   15954  266,275  trump-d 72.3% / 26.1% harris-k  50.00%  Unknown
 2024-11-06 09:18  trump-d   123,068   15954  266,275  trump-d 72.3% / 26.1% harris-k  50.00%  Unknown
 2024-11-06 09:18  trump-d   123,068   15954  266,275  trump-d 72.3% / 26.1% harris-k  50.00%  Unknown
 2024-11-06 09:18  trump-d   123,068   15954  266,275  trump-d 72.3% / 26.1% harris-k  50.00%  Unknown
