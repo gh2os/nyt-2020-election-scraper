@@ -1,12 +1,13 @@
 name: Scrape latest data
 
 on:
+  schedule:
+    - cron: '0 5 * * *'
   push:
     branches:
       - master
   workflow_dispatch:
-  schedule:
-    - cron: '0 5 * * *'
+  
 
 jobs:
   scheduled:
