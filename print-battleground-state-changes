@@ -5,7 +5,6 @@ import datetime
 import email.utils
 import git
 import hashlib
-import itertools
 import os
 import simdjson
 import subprocess
@@ -16,7 +15,7 @@ from tabulate import tabulate
 from collections import defaultdict
 
 # Constants
-BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
+BATTLEGROUND_STATES = ["Michigan", "Arizona", "Wisconsin", "Nevada", "Pennsylvania"]
 CACHE_DIR = '_cache'
 CACHE_VERSION = 2
 
@@ -31,17 +30,15 @@ class InputRecord(NamedTuple):
     precincts_total: int
     precincts_reporting: int
     counties: Dict[str, int]
+    hurdle_mov_avg: Optional[float] = None  # Adding hurdle_mov_avg to InputRecord
 
 def git_commits_for(path: str) -> List[str]:
-    """Get commit hashes for a specified file."""
     return subprocess.check_output(['git', 'log', '--format=%H', path]).strip().decode().splitlines()
 
 def git_show(ref: str, name: str, repo_client) -> bytes:
-    """Show the file content for a specific commit reference."""
     return repo_client.commit(ref).tree[name].data_stream.read()
 
 def to_python_type(data):
-    """Recursively convert simdjson objects to native Python types."""
     if isinstance(data, simdjson.Object):
         return {k: to_python_type(v) for k, v in data.items()}
     elif isinstance(data, simdjson.Array):
@@ -49,7 +46,6 @@ def to_python_type(data):
     return data
 
 def process_json_data(json_data: dict) -> List[InputRecord]:
-    """Parse JSON data and create InputRecords."""
     records = []
     for race in json_data.get("races", []):
         updated_at = datetime.datetime.fromisoformat(race.get("updated_at").replace("Z", "+00:00"))
@@ -71,7 +67,6 @@ def process_json_data(json_data: dict) -> List[InputRecord]:
     return records
 
 def parse_isoformat(timestamp_str):
-    """Parse ISO format date string, compatible with Python < 3.7."""
     if hasattr(datetime.datetime, "fromisoformat"):
         return datetime.datetime.fromisoformat(timestamp_str)
     else:
@@ -158,8 +153,9 @@ def compute_hurdle_sma(
     hurdle_moving_average = float(agg_c2_votes) / agg_votes if agg_votes else None
     return hurdle_moving_average
 
-def string_summary(record):
-    timestamp_str = record.timestamp.strftime("%Y-%m-%d %H:%M") if isinstance(record.timestamp, datetime.datetime) else record.timestamp
+def string_summary(record, trailing_candidate_name, summarized_state_data):
+    timestamp_str = record.timestamp.strftime("%Y-%m-%d %H:%M")
+
     sorted_candidates = sorted(record.candidates, key=lambda x: x['votes'], reverse=True)
     leading_candidate = sorted_candidates[0] if sorted_candidates else None
     trailing_candidate = sorted_candidates[1] if len(sorted_candidates) > 1 else None
@@ -168,19 +164,27 @@ def string_summary(record):
     trailing_candidate_name = trailing_candidate['last_name'] if trailing_candidate else "N/A"
     vote_differential = leading_candidate['votes'] - trailing_candidate['votes'] if leading_candidate and trailing_candidate else 0
     votes_remaining = record.expected_votes - record.votes if record.expected_votes > 0 else "Unknown"
-    new_votes_formatted = f"{record.votes:,}"
-    precincts_reporting = f"{record.precincts_reporting / record.precincts_total:.2%}" if record.precincts_total > 0 else "N/A"
-    hurdle = "Unknown"
-    hurdle_trend = "n/a"
+
+    last_batch_votes = record.votes
+    if last_batch_votes > 0 and leading_candidate and trailing_candidate:
+        leading_percentage = (leading_candidate['votes'] / last_batch_votes) * 100
+        trailing_percentage = (trailing_candidate['votes'] / last_batch_votes) * 100
+        batch_breakdown = f"{leading_candidate_name} {leading_percentage:.1f}% / {trailing_percentage:.1f}% {trailing_candidate_name}"
+    else:
+        batch_breakdown = "N/A"
+
+    hurdle_mov_avg = compute_hurdle_sma(summarized_state_data, record.votes, 0.5, trailing_candidate_name)
+    hurdle_trend = f"{hurdle_mov_avg:.2%}" if hurdle_mov_avg is not None else "n/a"
 
     return [
         f"{timestamp_str}",
-        f"{leading_candidate_name} leading by {vote_differential:,}",
-        f"Votes remaining (est.): {votes_remaining}",
-        f"Change: {new_votes_formatted}",
-        f"Precincts reporting: {precincts_reporting}",
-        f"Hurdle for trailing candidate: {hurdle}",
-        f"Trend: {hurdle_trend}"
+        f"{leading_candidate_name}",
+        f"{vote_differential:,}",
+        f"{votes_remaining}",
+        f"{record.votes:,}",
+        batch_breakdown,
+        f"{hurdle_trend}",
+        "Unknown"
     ]
 
 def generate_txt_output(path, summarized, states_updated):
@@ -190,9 +194,18 @@ def generate_txt_output(path, summarized, states_updated):
             ["Latest batch received:", f"({', '.join(states_updated)})"],
             ["Web version:", "https://example.com"]
         ]), file=f)
+        
         for state, timestamped_results in sorted(summarized.items()):
+            trailing_candidate_name = (timestamped_results[0].candidates[1]['last_name'] 
+                                       if len(timestamped_results[0].candidates) > 1 else "N/A")
+
             print(f'\n{state} - Total Votes:', file=f)
-            print(tabulate([string_summary(summary) for summary in timestamped_results]), file=f)
+            
+            summaries = [
+                string_summary(summary, trailing_candidate_name, timestamped_results) 
+                for summary in timestamped_results
+            ]
+            print(tabulate(summaries), file=f)
 
 def generate_csv_output(path, summarized):
     with open(path, 'w') as csvfile:
@@ -231,45 +244,98 @@ def generate_rss_output(path, summarized):
             </rss>'''), file=rssfile)
 
 def html_table(summarized: dict) -> List[str]:
+    """Generate HTML tables with separate rows for each state's election data."""
     html_output = []
     for state, timestamped_results in sorted(summarized.items()):
         state_slug = state.split('(')[0].strip().replace(' ', '-').lower()
         
-        html_output.append(f"<div class='table-responsive'><table id='{state_slug}' class='table table-bordered'>")
-        html_output.append(f"""
-            <thead class="thead-light">
-                <tr>
-                    <th colspan="9" style="text-align:left;">
-                        <span>{state}</span> - Electoral Votes: {timestamped_results[0].electoral_votes}
-                    </th>
-                </tr>
-                <tr>
-                    <th>Timestamp</th>
-                    <th>Leading Candidate</th>
-                    <th>Vote Margin</th>
-                    <th>Votes Remaining (est.)</th>
-                    <th>Change</th>
-                    <th>Batch Breakdown</th>
-                    <th>Batch Trend</th>
-                    <th>Hurdle</th>
-                </tr>
-            </thead>
-        """)
+        # Start a new table for each state
+        state_table = [
+            f"<div class='table-responsive'><table id='{state_slug}' class='table table-bordered'>",
+            f"""
+                <thead class="thead-light">
+                    <tr>
+                        <th colspan="9" style="text-align:left;">
+                            <span>{state}</span> - Electoral Votes: {timestamped_results[0].electoral_votes}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Leading Candidate</th>
+                        <th>Vote Margin</th>
+                        <th>Votes Remaining (est.)</th>
+                        <th>Change</th>
+                        <th>Batch Breakdown</th>
+                        <th>Batch Trend</th>
+                        <th>Hurdle</th>
+                    </tr>
+                </thead>
+            """
+        ]
+
+        # Track cumulative votes for each candidate to calculate batch-specific data
+        previous_votes = {candidate['last_name']: 0 for candidate in timestamped_results[0].candidates}
 
         for summary in timestamped_results:
-            html_output.append(f"""
+            # Calculate the total votes in the current batch
+            votes_in_batch = summary.votes - sum(previous_votes.values())
+            
+            # Calculate batch breakdown and update previous votes
+            leading_candidate = None
+            trailing_candidate = None
+            leading_votes_in_batch = 0
+            trailing_votes_in_batch = 0
+            batch_breakdown = "N/A"  # Default if we can't calculate batch breakdown
+
+            if votes_in_batch > 0:
+                # Loop through candidates and calculate the votes gained in this batch
+                for candidate in summary.candidates:
+                    last_name = candidate['last_name']
+                    votes_gained = candidate['votes'] - previous_votes.get(last_name, 0)
+
+                    # Update previous votes for each candidate
+                    previous_votes[last_name] = candidate['votes']
+
+                    # Identify the leading and trailing candidates based on votes gained
+                    if not leading_candidate or votes_gained > leading_votes_in_batch:
+                        trailing_candidate, trailing_votes_in_batch = leading_candidate, leading_votes_in_batch
+                        leading_candidate, leading_votes_in_batch = candidate, votes_gained
+                    elif not trailing_candidate or votes_gained > trailing_votes_in_batch:
+                        trailing_candidate, trailing_votes_in_batch = candidate, votes_gained
+
+                # Calculate batch breakdown percentages if both candidates are found
+                if leading_candidate and trailing_candidate:
+                    leading_percentage = (leading_votes_in_batch / votes_in_batch) * 100
+                    trailing_percentage = (trailing_votes_in_batch / votes_in_batch) * 100
+                    batch_breakdown = f"{leading_candidate['last_name']} {leading_percentage:.1f}% / {trailing_percentage:.1f}% {trailing_candidate['last_name']}"
+
+            # Calculate vote margin (differential) correctly each time
+            if leading_candidate and trailing_candidate:
+                vote_differential = leading_candidate['votes'] - trailing_candidate['votes']
+            else:
+                vote_differential = "N/A"
+
+            votes_remaining = summary.expected_votes - summary.votes if summary.expected_votes > 0 else "Unknown"
+            hurdle_mov_avg_display = f"{summary.hurdle_mov_avg:.2%}" if summary.hurdle_mov_avg is not None else "n/a"
+
+            # Append each row for the state's table
+            state_table.append(f"""
                 <tr>
                     <td>{summary.timestamp.strftime('%Y-%m-%d %H:%M:%S')}</td>
-                    <td>{summary.candidates[0]['last_name'] if summary.candidates else "N/A"}</td>
-                    <td>{summary.votes:,}</td>
-                    <td>{summary.expected_votes - summary.votes if summary.expected_votes > 0 else "Unknown"}</td>
-                    <td>{summary.votes}</td>
-                    <td>{summary.precincts_reporting}/{summary.precincts_total}</td>
-                    <td>n/a</td>
+                    <td>{leading_candidate['last_name'] if leading_candidate else "N/A"}</td>
+                    <td>{vote_differential}</td>
+                    <td>{votes_remaining if isinstance(votes_remaining, int) and votes_remaining > 0 else "Unknown"}</td>
+                    <td>{votes_in_batch:,}</td>
+                    <td>{batch_breakdown}</td>
+                    <td>{hurdle_mov_avg_display}</td>
                     <td>Unknown</td>
                 </tr>
             """)
-        html_output.append("</table></div><hr>")
+
+        # Close the table for the current state and append it to html_output
+        state_table.append("</table></div><hr>")
+        html_output.extend(state_table)
+
     return html_output
 
 def html_output(path: str, table_rows: List[str], states_updated: List[str], other_page_html: str):
