@@ -30,18 +30,95 @@ CACHE_DIR = '_cache'
 CACHE_VERSION = 2
 
 # Define structured data using named tuples
+# Define the structure for InputRecord based on parsed JSON
 InputRecord = collections.namedtuple(
     'InputRecord',
-    ['timestamp', 'state_name', 'state_abbrev', 'electoral_votes', 'candidates', 'votes', 'expected_votes', 'precincts_total', 'precincts_reporting', 'counties']
+    [
+        'timestamp',
+        'state_name',
+        'state_abbrev',
+        'electoral_votes',
+        'candidates',
+        'votes',
+        'expected_votes',
+        'precincts_total',
+        'precincts_reporting',
+        'counties',
+    ]
 )
-IterationInfo = collections.namedtuple(
-    'IterationInfo',
-    ['vote_diff', 'votes', 'precincts_reporting', 'hurdle', 'leading_candidate_name', 'counties', 'candidate_votes']
-)
-IterationSummary = collections.namedtuple(
-    'IterationSummary',
-    ['timestamp', 'leading_candidate_name', 'trailing_candidate_name', 'leading_candidate_votes', 'trailing_candidate_votes', 'vote_differential', 'votes_remaining', 'new_votes', 'new_votes_relevant', 'new_votes_formatted', 'leading_candidate_partition', 'trailing_candidate_partition', 'precincts_reporting', 'precincts_total', 'hurdle', 'hurdle_change', 'hurdle_mov_avg', 'counties_partition', 'total_votes_count']
-)
+
+# Function to process JSON data and create InputRecords
+def process_json_data(json_data: dict) -> List[InputRecord]:
+    records = []
+    for race in json_data["races"]:
+        # Parse the timestamp from the race data
+        updated_at = datetime.datetime.fromisoformat(race["updated_at"].replace("Z", "+00:00"))
+        
+        # Process each reporting unit (representing a state)
+        for unit in race["reporting_units"]:
+            # Extract candidate details
+            candidates = [
+                {
+                    "last_name": candidate.get("nyt_id", ""),
+                    "votes": candidate["votes"]["total"]
+                }
+                for candidate in unit["candidates"]
+            ]
+            
+            # Create InputRecord for each state unit
+            record = InputRecord(
+                timestamp=updated_at,
+                state_name=unit["name"],
+                state_abbrev=unit["state_abb"],
+                electoral_votes=race.get("electoral_votes", 0),
+                candidates=candidates,
+                votes=unit["total_votes"],
+                expected_votes=unit.get("total_expected_vote", 0),  # Fallback if not present
+                precincts_total=unit["precincts_total"],
+                precincts_reporting=unit["precincts_reporting"],
+                counties={}  # Placeholder as counties data is not in the sample
+            )
+            records.append(record)
+    
+    return records
+
+# Sample JSON data for testing
+sample_json = {
+    "races": [
+        {
+            "updated_at": "2024-11-06T01:18:17.436Z",
+            "electoral_votes": 9,
+            "reporting_units": [
+                {
+                    "name": "Alabama",
+                    "state_abb": "AL",
+                    "total_votes": 752,
+                    "precincts_total": 2028,
+                    "precincts_reporting": 1,
+                    "candidates": [
+                        {
+                            "nyt_id": "trump-d",
+                            "votes": {"total": 516}
+                        },
+                        {
+                            "nyt_id": "harris-k",
+                            "votes": {"total": 232}
+                        },
+                        {
+                            "nyt_id": "kennedy-r",
+                            "votes": {"total": 2}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+# Test the function with sample data
+processed_records = process_json_data(sample_json)
+for record in processed_records:
+    print(record)
 
 def git_commits_for(path):
     return subprocess.check_output(['git', 'log', "--format=%H", path]).strip().decode().splitlines()
