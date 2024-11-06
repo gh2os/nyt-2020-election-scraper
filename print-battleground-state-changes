@@ -16,7 +16,7 @@ CACHE_DIR = '_cache'
 CACHE_VERSION = 3  # Updated cache version
 
 # Battleground states
-BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
+BATTLEGROUND_STATES = ["Wisconsin", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania", "Michigan"]
 
 # Named tuple definitions
 InputRecord = collections.namedtuple(
