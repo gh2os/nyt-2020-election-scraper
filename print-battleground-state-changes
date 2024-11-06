@@ -1,27 +1,46 @@
-import os
+#!/usr/bin/env python3
+
+import csv
+import collections
+import datetime
+import email.utils
 import git
+import hashlib
+import itertools
+import os
 import simdjson
 import subprocess
-from typing import Dict, List, Tuple
-from collections import namedtuple, defaultdict
+import json
+from textwrap import dedent, indent
+from tabulate import tabulate
+from typing import Dict, Tuple
 
-CACHE_VERSION = 3
+# Constants and state indexes
+AK_INDEX = 0
+AZ_INDEX = 3
+GA_INDEX = 10
+NC_INDEX = 27
+NV_INDEX = 33
+PA_INDEX = 38
+
+BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
+STATE_INDEXES = range(51)  # 50 States + DC
+
 CACHE_DIR = '_cache'
+CACHE_VERSION = 2
 
-InputRecord = namedtuple(
+# Define structured data using named tuples
+InputRecord = collections.namedtuple(
     'InputRecord',
-    [
-        'timestamp',
-        'state_name',
-        'state_abbrev',
-        'electoral_votes',
-        'candidates',
-        'votes',
-        'expected_votes',
-        'precincts_total',
-        'precincts_reporting',
-        'counties',
-    ]
+    ['timestamp', 'state_name', 'state_abbrev', 'electoral_votes', 'candidates', 'votes', 'expected_votes', 'precincts_total', 'precincts_reporting', 'counties']
+)
+IterationInfo = collections.namedtuple(
+    'IterationInfo',
+    ['vote_diff', 'votes', 'precincts_reporting', 'hurdle', 'leading_candidate_name', 'counties', 'candidate_votes']
+)
+IterationSummary = collections.namedtuple(
+    'IterationSummary',
+    ['timestamp', 'leading_candidate_name', 'trailing_candidate_name', 'leading_candidate_votes', 'trailing_candidate_votes', 'vote_differential', 'votes_remaining', 'new_votes', 'new_votes_relevant', 'new_votes_formatted', 'leading_candidate_partition', 'trailing_candidate_partition', 'precincts_reporting', 'precincts_total', 'hurdle', 'hurdle_change', 'hurdle_mov_avg', 'counties_partition', 'total_votes_count']
 )
 
 def git_commits_for(path):
@@ -49,58 +68,159 @@ def fetch_all_records():
                     for row in record['rows']:
                         out.append(InputRecord(*row))
                     continue
-
         blob = git_show(ref, 'results.json', repo)
         json_data = parser.parse(blob)
-        
-        for race in json_data['races']:
-            # Attempt to get timestamp from `provider_updated_at` or `updated_at`
-            timestamp = race.get('updated_at') or race['reporting_units'][0].get('provider_updated_at', "Unknown Timestamp")
-            
-            for unit in race['reporting_units']:
-                state_name = unit['name']
-                state_abbrev = unit.get('state_postal')
-                electoral_votes = race.get('outcome', {}).get('electoral_votes')
-                total_votes = unit['total_votes']
-                expected_votes = unit['total_expected_vote']
-                precincts_total = unit['precincts_total']
-                precincts_reporting = unit['precincts_reporting']
+        timestamp = json_data['meta']['timestamp']
+        rows = []
+        for index in STATE_INDEXES:
+            race = json_data['data']['races'][index]
+            county_tot_exp_vote = [county['tot_exp_vote'] for county in race['counties']]
+            tot_exp_vote = sum(county_tot_exp_vote) if all(county_tot_exp_vote) else race['tot_exp_vote']
 
-                # Process candidate information
-                candidates = []
-                for candidate in unit['candidates']:
-                    candidate_votes = candidate['votes']['total']
-                    candidates.append({
-                        'id': candidate['nyt_id'],
-                        'votes': candidate_votes,
-                        'leader': candidate['leader']
-                    })
-
-                record = InputRecord(
-                    timestamp=timestamp,
-                    state_name=state_name,
-                    state_abbrev=state_abbrev,
-                    electoral_votes=electoral_votes,
-                    candidates=candidates,
-                    votes=total_votes,
-                    expected_votes=expected_votes,
-                    precincts_total=precincts_total,
-                    precincts_reporting=precincts_reporting,
-                    counties={}
-                )
-                out.append(record)
-
-        # Save to cache
+            record = InputRecord(
+                timestamp,
+                race['state_name'],
+                race['state_id'],
+                race['electoral_votes'],
+                race['candidates'].as_list(),
+                race['votes'],
+                tot_exp_vote,
+                race['precincts_total'],
+                race['precincts_reporting'],
+                {n['name']: n['votes'] for n in race['counties']}
+            )
+            rows.append(record)
+            out.append(record)
         try:
             os.makedirs(os.path.dirname(cache_path))
         except FileExistsError:
             pass
         with open(cache_path, 'w') as fh:
-            simdjson.dump({"version": CACHE_VERSION, "rows": out}, fh)
+            simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
 
-    # Group data by state
-    grouped = defaultdict(list)
+    out.sort(key=lambda row: row.timestamp)
+    grouped = collections.defaultdict(list)
     for row in out:
         grouped[row.state_name].append(row)
 
     return grouped
+
+def compute_hurdle_sma(summarized_state_data, newest_votes, new_partition_pct, trailing_candidate_name):
+    hurdle_moving_average = None
+    MIN_AGG_VOTES = 30000
+    agg_votes = newest_votes
+    agg_c2_votes = round(new_partition_pct * newest_votes)
+    step = 0
+    while step < len(summarized_state_data) and agg_votes < MIN_AGG_VOTES:
+        this_summary = summarized_state_data[step]
+        step += 1
+        if this_summary.new_votes_relevant > 0:
+            trailing_candidate_partition = this_summary.trailing_candidate_partition if this_summary.trailing_candidate_name == trailing_candidate_name else this_summary.leading_candidate_partition
+            if this_summary.new_votes_relevant + agg_votes > MIN_AGG_VOTES:
+                subset_pct = (MIN_AGG_VOTES - agg_votes) / float(this_summary.new_votes_relevant)
+                agg_votes += round(this_summary.new_votes_relevant * subset_pct)
+                agg_c2_votes += round(trailing_candidate_partition * this_summary.new_votes_relevant * subset_pct)
+            else:
+                agg_votes += this_summary.new_votes_relevant
+                agg_c2_votes += round(trailing_candidate_partition * this_summary.new_votes_relevant)
+    if agg_votes:
+        hurdle_moving_average = float(agg_c2_votes) / agg_votes
+    return hurdle_moving_average
+
+def string_summary(summary):
+    thirty_ago = (datetime.datetime.utcnow() - datetime.timedelta(minutes=30))
+    bumped = summary.leading_candidate_partition
+    bumped_name = summary.leading_candidate_name
+    if bumped < summary.trailing_candidate_partition:
+        bumped = summary.trailing_candidate_partition
+        bumped_name = summary.trailing_candidate_name
+    bumped -= 0.50
+    visible_hurdle = f'{summary.trailing_candidate_name} needs {summary.hurdle:.2%}' if summary.hurdle > 0 else 'Unknown'
+    return [
+        f'{summary.timestamp.strftime("%Y-%m-%d %H:%M")}',
+        '***' if summary.timestamp > thirty_ago else '---',
+        f'{summary.leading_candidate_name} up {summary.vote_differential:,}',
+        f'Left (est.): {summary.votes_remaining:,}' if summary.votes_remaining > 0 else 'Unknown',
+        f'Δ: {summary.new_votes_formatted} ({f"{bumped_name} +{bumped:5.01%}" if (summary.leading_candidate_partition or summary.trailing_candidate_partition) else "n/a"})',
+        f'{summary.precincts_reporting/summary.precincts_total:.2%} precincts',
+        f'{visible_hurdle}',
+        f'& trends  {f"{summary.hurdle_mov_avg:.2%}" if summary.hurdle_mov_avg else "n/a"}'
+    ]
+
+def generate_txt_output(path, summarized, states_updated):
+    with open(path, "w") as f:
+        print(tabulate([
+            ["Last updated:", scrape_time.strftime("%Y-%m-%d %H:%M UTC")],
+            ["Latest batch received:", f"({', '.join(states_updated)})"],
+            ["Web version:", "https://example.com"]
+        ]), file=f)
+        for state, timestamped_results in sorted(summarized.items()):
+            print(f'\n{state} - Total Votes:', file=f)
+            print(tabulate([string_summary(summary) for summary in timestamped_results]), file=f)
+
+def generate_html_output(path, html_table, states_updated, other_page_html):
+    html_template = "<!-- Generated automatically -->\n\n"
+    with open("battleground-state-changes.html.tmpl", "r", encoding='utf8') as f:
+        html_template += f.read()
+    TEMPLATE_HASH = hashlib.sha256(html_template.encode('utf8')).hexdigest()
+
+    with open(path,"w", encoding='utf8') as f:
+        page_metadata = json.dumps({
+            "template_hash": TEMPLATE_HASH,
+            "states_updated": states_updated,
+        })
+        html = html_template.replace('{% TABLES %}', "\n".join(html_table))
+        html = html.replace('{% OTHER_PAGE_TEXT %}', other_page_html)
+        f.write(html)
+
+def generate_csv_output(path, summarized):
+    with open(path, 'w') as csvfile:
+        wr = csv.writer(csvfile)
+        wr.writerow(('state',) + IterationSummary._fields)
+        for state, results in summarized.items():
+            for row in results:
+                wr.writerow((state,) + row)
+
+def generate_rss_output(path, summarized):
+    with open(path, 'w') as rssfile:
+        print(dedent(f'''
+            <?xml version="1.0" encoding="UTF-8"?>
+            <rss version="2.0">
+            <channel>
+              <title>Election Results Feed</title>
+              <link>https://example.com</link>
+              <description>Latest results</description>
+              <lastBuildDate>{email.utils.formatdate(batch_time.timestamp())}</lastBuildDate>
+        '''), file=rssfile)
+
+        for state, results in summarized.items():
+            if not results:
+                continue
+            timestamp = results[0].timestamp.timestamp()
+            print(indent(dedent(f'''
+                <item>
+                    <description>{state}: {results[0].leading_candidate_name} +{results[0].vote_differential}</description>
+                    <pubDate>{email.utils.formatdate(timestamp)}</pubDate>
+                    <guid isPermaLink="false">{state}@{timestamp}</guid>
+                </item>
+            '''), "  "), file=rssfile)
+
+        print(dedent('''
+             </channel>
+            </rss>'''), file=rssfile)
+
+# Capture the scrape time
+scrape_time = datetime.datetime.utcnow()
+records = fetch_all_records()
+
+# Summarized data dictionaries
+summarized = {}
+state_formatted_name = {}
+state_abbrev = {}
+
+# Generate outputs
+generate_txt_output("battleground-state-changes.txt", summarized, BATTLEGROUND_STATES)
+generate_csv_output("battleground-state-changes.csv", summarized)
+generate_rss_output("battleground-state-changes.xml", summarized)
+
+print("Script completed successfully.")
