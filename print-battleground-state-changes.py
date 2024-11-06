@@ -5,17 +5,18 @@ import datetime
 import email.utils
 import git
 import hashlib
+import itertools
 import os
 import simdjson
 import subprocess
 import json
 from textwrap import dedent, indent
-from typing import Dict, List, NamedTuple
+from typing import Dict, List, NamedTuple, Optional
 from tabulate import tabulate
 from collections import defaultdict
 
 # Constants
-BATTLEGROUND_STATES = ["Michigan", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania", "Virginia", "Wisconsin"]
+BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
 CACHE_DIR = '_cache'
 CACHE_VERSION = 2
 
@@ -74,7 +75,6 @@ def parse_isoformat(timestamp_str):
     if hasattr(datetime.datetime, "fromisoformat"):
         return datetime.datetime.fromisoformat(timestamp_str)
     else:
-        # Remove the trailing 'Z' for UTC if present and use strptime
         if timestamp_str.endswith("Z"):
             timestamp_str = timestamp_str[:-1]
         return datetime.datetime.strptime(timestamp_str, "%Y-%m-%dT%H:%M:%S.%f")
@@ -123,9 +123,43 @@ def fetch_all_records():
 
     return grouped
 
+def compute_hurdle_sma(
+    summarized_state_data: List[InputRecord], 
+    newest_votes: int, 
+    new_partition_pct: float, 
+    trailing_candidate_name: str
+) -> Optional[float]:
+    MIN_AGG_VOTES = 30000
+    agg_votes = newest_votes
+    agg_c2_votes = round(new_partition_pct * newest_votes)
+    step = 0
+
+    while step < len(summarized_state_data) and agg_votes < MIN_AGG_VOTES:
+        record = summarized_state_data[step]
+        step += 1
+
+        new_votes_relevant = sum(candidate['votes'] for candidate in record.candidates)
+
+        if new_votes_relevant > 0:
+            trailing_candidate = next(
+                (candidate for candidate in record.candidates if candidate['last_name'] == trailing_candidate_name),
+                None
+            )
+            trailing_candidate_partition = trailing_candidate['votes'] / new_votes_relevant if trailing_candidate else 0
+
+            if new_votes_relevant + agg_votes > MIN_AGG_VOTES:
+                subset_pct = (MIN_AGG_VOTES - agg_votes) / new_votes_relevant
+                agg_votes += round(new_votes_relevant * subset_pct)
+                agg_c2_votes += round(trailing_candidate_partition * new_votes_relevant * subset_pct)
+            else:
+                agg_votes += new_votes_relevant
+                agg_c2_votes += round(trailing_candidate_partition * new_votes_relevant)
+
+    hurdle_moving_average = float(agg_c2_votes) / agg_votes if agg_votes else None
+    return hurdle_moving_average
+
 def string_summary(record):
-    """Generate a summary string for a given InputRecord."""
-    timestamp_str = record.timestamp.strftime("%Y-%m-%d %H:%M")
+    timestamp_str = record.timestamp.strftime("%Y-%m-%d %H:%M") if isinstance(record.timestamp, datetime.datetime) else record.timestamp
     sorted_candidates = sorted(record.candidates, key=lambda x: x['votes'], reverse=True)
     leading_candidate = sorted_candidates[0] if sorted_candidates else None
     trailing_candidate = sorted_candidates[1] if len(sorted_candidates) > 1 else None
@@ -133,7 +167,6 @@ def string_summary(record):
     leading_candidate_name = leading_candidate['last_name'] if leading_candidate else "N/A"
     trailing_candidate_name = trailing_candidate['last_name'] if trailing_candidate else "N/A"
     vote_differential = leading_candidate['votes'] - trailing_candidate['votes'] if leading_candidate and trailing_candidate else 0
-
     votes_remaining = record.expected_votes - record.votes if record.expected_votes > 0 else "Unknown"
     new_votes_formatted = f"{record.votes:,}"
     precincts_reporting = f"{record.precincts_reporting / record.precincts_total:.2%}" if record.precincts_total > 0 else "N/A"
@@ -198,10 +231,8 @@ def generate_rss_output(path, summarized):
             </rss>'''), file=rssfile)
 
 def html_table(summarized: dict) -> List[str]:
-    """Generate HTML table rows for each state in summarized data."""
     html_output = []
     for state, timestamped_results in sorted(summarized.items()):
-        # 'Alaska (3)' -> 'alaska', 'North Carolina (15)' -> 'north-carolina'
         state_slug = state.split('(')[0].strip().replace(' ', '-').lower()
         
         html_output.append(f"<div class='table-responsive'><table id='{state_slug}' class='table table-bordered'>")
@@ -225,39 +256,17 @@ def html_table(summarized: dict) -> List[str]:
             </thead>
         """)
 
-        for record in timestamped_results:
-            # Sort candidates by votes to determine leading and trailing candidates
-            sorted_candidates = sorted(record.candidates, key=lambda x: x['votes'], reverse=True)
-            leading_candidate = sorted_candidates[0] if sorted_candidates else None
-            trailing_candidate = sorted_candidates[1] if len(sorted_candidates) > 1 else None
-
-            leading_candidate_name = leading_candidate['last_name'] if leading_candidate else "N/A"
-            trailing_candidate_name = trailing_candidate['last_name'] if trailing_candidate else "N/A"
-            vote_differential = leading_candidate['votes'] - trailing_candidate['votes'] if leading_candidate and trailing_candidate else 0
-
-            # Estimated votes remaining
-            votes_remaining = record.expected_votes - record.votes if record.expected_votes > 0 else "Unknown"
-
-            # Format new votes in this update
-            new_votes_formatted = f"{record.votes:,}"
-
-            # Calculate precincts reporting as a percentage
-            precincts_reporting = f"{record.precincts_reporting / record.precincts_total:.2%}" if record.precincts_total > 0 else "N/A"
-
-            # Placeholder for hurdle and trend (if available)
-            hurdle = "Unknown"
-            hurdle_trend = "n/a"
-
+        for summary in timestamped_results:
             html_output.append(f"""
                 <tr>
-                    <td>{record.timestamp.strftime('%Y-%m-%d %H:%M:%S')}</td>
-                    <td>{leading_candidate_name}</td>
-                    <td>{vote_differential:,}</td>
-                    <td>{votes_remaining}</td>
-                    <td>{new_votes_formatted}</td>
-                    <td>{precincts_reporting}</td>
-                    <td>{hurdle_trend}</td>
-                    <td>{hurdle}</td>
+                    <td>{summary.timestamp.strftime('%Y-%m-%d %H:%M:%S')}</td>
+                    <td>{summary.candidates[0]['last_name'] if summary.candidates else "N/A"}</td>
+                    <td>{summary.votes:,}</td>
+                    <td>{summary.expected_votes - summary.votes if summary.expected_votes > 0 else "Unknown"}</td>
+                    <td>{summary.votes}</td>
+                    <td>{summary.precincts_reporting}/{summary.precincts_total}</td>
+                    <td>n/a</td>
+                    <td>Unknown</td>
                 </tr>
             """)
         html_output.append("</table></div><hr>")
@@ -305,14 +314,12 @@ if __name__ == "__main__":
     generate_txt_output("battleground-state-changes.txt", summarized, BATTLEGROUND_STATES)
     generate_csv_output("battleground-state-changes.csv", summarized)
     generate_rss_output("battleground-state-changes.xml", summarized)
-    
     html_output(
         path="battleground-state-changes.html",
         table_rows=html_table(battlegrounds_summarized),
         states_updated=battleground_states_updated,
         other_page_html='Data for all 50 states and DC is <a href="all-state-changes.html">also available</a>.'
     )
-
     html_output(
         path="all-state-changes.html",
         table_rows=html_table(summarized),
