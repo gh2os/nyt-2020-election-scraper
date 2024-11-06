@@ -127,6 +127,14 @@ def git_show(ref, name, repo_client):
     commit_tree = repo_client.commit(ref).tree
     return commit_tree[name].data_stream.read()
 
+def git_commits_for(path):
+    return subprocess.check_output(['git', 'log', "--format=%H", path]).strip().decode().splitlines()
+
+def git_show(ref, name, repo_client):
+    commit_tree = repo_client.commit(ref).tree
+    return commit_tree[name].data_stream.read()
+
+# Updated fetch_all_records function
 def fetch_all_records():
     commits = git_commits_for("results.json")
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
@@ -135,6 +143,8 @@ def fetch_all_records():
     parser = simdjson.Parser()
     for ref in commits:
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
+        
+        # Check cache
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
                 try:
@@ -145,43 +155,32 @@ def fetch_all_records():
                     for row in record['rows']:
                         out.append(InputRecord(*row))
                     continue
+        
+        # Process the latest commit data from git
         blob = git_show(ref, 'results.json', repo)
         json_data = parser.parse(blob)
-        timestamp = json_data['meta']['timestamp']
-        rows = []
-        for index in STATE_INDEXES:
-            race = json_data['data']['races'][index]
-            county_tot_exp_vote = [county['tot_exp_vote'] for county in race['counties']]
-            tot_exp_vote = sum(county_tot_exp_vote) if all(county_tot_exp_vote) else race['tot_exp_vote']
 
-            record = InputRecord(
-                timestamp,
-                race['state_name'],
-                race['state_id'],
-                race['electoral_votes'],
-                race['candidates'].as_list(),
-                race['votes'],
-                tot_exp_vote,
-                race['precincts_total'],
-                race['precincts_reporting'],
-                {n['name']: n['votes'] for n in race['counties']}
-            )
-            rows.append(record)
-            out.append(record)
+        # Parse the JSON data using process_json_data function
+        rows = process_json_data(json_data)
+        out.extend(rows)
+        
+        # Cache the parsed data
         try:
             os.makedirs(os.path.dirname(cache_path))
         except FileExistsError:
             pass
         with open(cache_path, 'w') as fh:
-            simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+            simdjson.dump({"version": CACHE_VERSION, "rows": [row._asdict() for row in rows]}, fh)
 
+    # Sort records by timestamp
     out.sort(key=lambda row: row.timestamp)
+
+    # Group by state for easy access
     grouped = collections.defaultdict(list)
     for row in out:
         grouped[row.state_name].append(row)
 
     return grouped
-
 def compute_hurdle_sma(summarized_state_data, newest_votes, new_partition_pct, trailing_candidate_name):
     hurdle_moving_average = None
     MIN_AGG_VOTES = 30000
