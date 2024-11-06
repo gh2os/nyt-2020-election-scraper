@@ -91,8 +91,8 @@ def fetch_all_records():
                         out.append(InputRecord(*row))
                     continue
         
-        # Load data from the `new.json` structure
-        blob = git_show(ref, 'new.json', repo)
+        # Load data from the `result.json` structure
+        blob = git_show(ref, 'result.json', repo)
         json_data = parser.parse(blob)
         
         timestamp = json_data['races'][0]['updated_at']
@@ -197,7 +197,7 @@ def string_summary(summary):
         f'& trends  {f"{summary.hurdle_mov_avg:.2%}" if summary.hurdle_mov_avg else "n/a"}'
     ]
 
-# Update txt_output and html_output similarly to handle `new.json` structure
+# Update txt_output and html_output similarly to handle `result.json` structure
 
 # Capture the scrape time at the top of the script
 scrape_time = datetime.datetime.utcnow()
@@ -211,6 +211,6 @@ state_formatted_name = {}
 state_abbrev = {}
 
 # Parse data for summaries (txt, HTML, etc.) as in the original script,
-# ensuring all candidate and vote accesses align with the new `new.json` format.
+# ensuring all candidate and vote accesses align with the new `result.json` format.
 
 # Example of a potential usage of these functions
