@@ -5,7 +5,368 @@
   <title>Election Results Feed</title>
   <link>https://example.com</link>
   <description>Latest results</description>
+<<<<<<< HEAD
   <lastBuildDate>Wed, 06 Nov 2024 03:04:49 -0000</lastBuildDate>
+=======
+  <lastBuildDate>Wed, 06 Nov 2024 03:06:22 -0000</lastBuildDate>
+
+
+  <item>
+      <description>Hawaii: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 16:28:39 -0000</pubDate>
+      <guid isPermaLink="false">Hawaii@1730824119.229</guid>
+  </item>
+
+
+  <item>
+      <description>Idaho: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 16:38:02 -0000</pubDate>
+      <guid isPermaLink="false">Idaho@1730824682.354</guid>
+  </item>
+
+
+  <item>
+      <description>Minnesota: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 17:30:11 -0000</pubDate>
+      <guid isPermaLink="false">Minnesota@1730827811.919</guid>
+  </item>
+
+
+  <item>
+      <description>California: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 17:31:28 -0000</pubDate>
+      <guid isPermaLink="false">California@1730827888.057</guid>
+  </item>
+
+
+  <item>
+      <description>New Mexico: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 17:32:14 -0000</pubDate>
+      <guid isPermaLink="false">New Mexico@1730827934.241</guid>
+  </item>
+
+
+  <item>
+      <description>Nebraska: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 17:35:51 -0000</pubDate>
+      <guid isPermaLink="false">Nebraska@1730828151.906</guid>
+  </item>
+
+
+  <item>
+      <description>Washington, D.C.: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 18:24:15 -0000</pubDate>
+      <guid isPermaLink="false">Washington, D.C.@1730831055.625</guid>
+  </item>
+
+
+  <item>
+      <description>Alaska: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 19:04:52 -0000</pubDate>
+      <guid isPermaLink="false">Alaska@1730833492.602</guid>
+  </item>
+
+
+  <item>
+      <description>Montana: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 19:33:11 -0000</pubDate>
+      <guid isPermaLink="false">Montana@1730835191.458</guid>
+  </item>
+
+
+  <item>
+      <description>Washington: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 19:37:50 -0000</pubDate>
+      <guid isPermaLink="false">Washington@1730835470.369</guid>
+  </item>
+
+
+  <item>
+      <description>New York: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 19:54:02 -0000</pubDate>
+      <guid isPermaLink="false">New York@1730836442.119</guid>
+  </item>
+
+
+  <item>
+      <description>Wisconsin: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 20:53:53 -0000</pubDate>
+      <guid isPermaLink="false">Wisconsin@1730840033.771</guid>
+  </item>
+
+
+  <item>
+      <description>Arizona: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 20:56:19 -0000</pubDate>
+      <guid isPermaLink="false">Arizona@1730840179.647</guid>
+  </item>
+
+
+  <item>
+      <description>Nevada: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 21:34:07 -0000</pubDate>
+      <guid isPermaLink="false">Nevada@1730842447.974</guid>
+  </item>
+
+
+  <item>
+      <description>Wyoming: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 21:36:39 -0000</pubDate>
+      <guid isPermaLink="false">Wyoming@1730842599.931</guid>
+  </item>
+
+
+  <item>
+      <description>Louisiana: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 22:45:26 -0000</pubDate>
+      <guid isPermaLink="false">Louisiana@1730846726.503</guid>
+  </item>
+
+
+  <item>
+      <description>Oregon: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 22:59:58 -0000</pubDate>
+      <guid isPermaLink="false">Oregon@1730847598.143</guid>
+  </item>
+
+
+  <item>
+      <description>Colorado: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 23:36:45 -0000</pubDate>
+      <guid isPermaLink="false">Colorado@1730849805.996</guid>
+  </item>
+
+
+  <item>
+      <description>Arkansas: harris-k +0</description>
+      <pubDate>Tue, 05 Nov 2024 23:39:43 -0000</pubDate>
+      <guid isPermaLink="false">Arkansas@1730849983.61</guid>
+  </item>
+
+
+  <item>
+      <description>Iowa: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 00:51:29 -0000</pubDate>
+      <guid isPermaLink="false">Iowa@1730854289.903</guid>
+  </item>
+
+
+  <item>
+      <description>Maryland: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:00:39 -0000</pubDate>
+      <guid isPermaLink="false">Maryland@1730854839.111</guid>
+  </item>
+
+
+  <item>
+      <description>Delaware: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:00:45 -0000</pubDate>
+      <guid isPermaLink="false">Delaware@1730854845.152</guid>
+  </item>
+
+
+  <item>
+      <description>North Dakota: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:00:46 -0000</pubDate>
+      <guid isPermaLink="false">North Dakota@1730854846.722</guid>
+  </item>
+
+
+  <item>
+      <description>Missouri: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:00:49 -0000</pubDate>
+      <guid isPermaLink="false">Missouri@1730854849.197</guid>
+  </item>
+
+
+  <item>
+      <description>Maine: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:02:06 -0000</pubDate>
+      <guid isPermaLink="false">Maine@1730854926.218</guid>
+  </item>
+
+
+  <item>
+      <description>Mississippi: trump-d +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:05:58 -0000</pubDate>
+      <guid isPermaLink="false">Mississippi@1730855158.913</guid>
+  </item>
+
+
+  <item>
+      <description>Alabama: trump-d +291</description>
+      <pubDate>Wed, 06 Nov 2024 01:10:17 -0000</pubDate>
+      <guid isPermaLink="false">Alabama@1730855417.462</guid>
+  </item>
+
+
+  <item>
+      <description>Utah: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:11:53 -0000</pubDate>
+      <guid isPermaLink="false">Utah@1730855513.626</guid>
+  </item>
+
+
+  <item>
+      <description>Connecticut: harris-k +4357</description>
+      <pubDate>Wed, 06 Nov 2024 01:15:41 -0000</pubDate>
+      <guid isPermaLink="false">Connecticut@1730855741.611</guid>
+  </item>
+
+
+  <item>
+      <description>Illinois: harris-k +23130</description>
+      <pubDate>Wed, 06 Nov 2024 01:15:52 -0000</pubDate>
+      <guid isPermaLink="false">Illinois@1730855752.696</guid>
+  </item>
+
+
+  <item>
+      <description>Massachusetts: harris-k +67</description>
+      <pubDate>Wed, 06 Nov 2024 01:15:54 -0000</pubDate>
+      <guid isPermaLink="false">Massachusetts@1730855754.185</guid>
+  </item>
+
+
+  <item>
+      <description>New Hampshire: harris-k +131833</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:02 -0000</pubDate>
+      <guid isPermaLink="false">New Hampshire@1730855762.206</guid>
+  </item>
+
+
+  <item>
+      <description>Kansas: harris-k +85616</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:06 -0000</pubDate>
+      <guid isPermaLink="false">Kansas@1730855766.212</guid>
+  </item>
+
+
+  <item>
+      <description>Oklahoma: trump-d +207128</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:07 -0000</pubDate>
+      <guid isPermaLink="false">Oklahoma@1730855767.285</guid>
+  </item>
+
+
+  <item>
+      <description>Rhode Island: harris-k +7124</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:33 -0000</pubDate>
+      <guid isPermaLink="false">Rhode Island@1730855793.968</guid>
+  </item>
+
+
+  <item>
+      <description>Michigan: harris-k +130919</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:35 -0000</pubDate>
+      <guid isPermaLink="false">Michigan@1730855795.516</guid>
+  </item>
+
+
+  <item>
+      <description>North Carolina: harris-k +514000</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:36 -0000</pubDate>
+      <guid isPermaLink="false">North Carolina@1730855796.014</guid>
+  </item>
+
+
+  <item>
+      <description>Georgia: trump-d +2290852</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:36 -0000</pubDate>
+      <guid isPermaLink="false">Georgia@1730855796.344</guid>
+  </item>
+
+
+  <item>
+      <description>Pennsylvania: harris-k +504661</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:37 -0000</pubDate>
+      <guid isPermaLink="false">Pennsylvania@1730855797.308</guid>
+  </item>
+
+
+  <item>
+      <description>Indiana: trump-d +1013327</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:38 -0000</pubDate>
+      <guid isPermaLink="false">Indiana@1730855798.192</guid>
+  </item>
+
+
+  <item>
+      <description>Florida: trump-d +10043835</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:39 -0000</pubDate>
+      <guid isPermaLink="false">Florida@1730855799.392</guid>
+  </item>
+
+
+  <item>
+      <description>South Dakota: harris-k +0</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:40 -0000</pubDate>
+      <guid isPermaLink="false">South Dakota@1730855800.042</guid>
+  </item>
+
+
+  <item>
+      <description>New Jersey: harris-k +471138</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:42 -0000</pubDate>
+      <guid isPermaLink="false">New Jersey@1730855802.386</guid>
+  </item>
+
+
+  <item>
+      <description>Vermont: harris-k +117835</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:50 -0000</pubDate>
+      <guid isPermaLink="false">Vermont@1730855810.866</guid>
+  </item>
+
+
+  <item>
+      <description>Ohio: harris-k +2132772</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:51 -0000</pubDate>
+      <guid isPermaLink="false">Ohio@1730855811.219</guid>
+  </item>
+
+
+  <item>
+      <description>West Virginia: trump-d +111436</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:54 -0000</pubDate>
+      <guid isPermaLink="false">West Virginia@1730855814.458</guid>
+  </item>
+
+
+  <item>
+      <description>Virginia: harris-k +1470355</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:55 -0000</pubDate>
+      <guid isPermaLink="false">Virginia@1730855815.956</guid>
+  </item>
+
+
+  <item>
+      <description>Texas: trump-d +3131477</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:56 -0000</pubDate>
+      <guid isPermaLink="false">Texas@1730855816.098</guid>
+  </item>
+
+
+  <item>
+      <description>South Carolina: trump-d +662382</description>
+      <pubDate>Wed, 06 Nov 2024 01:16:57 -0000</pubDate>
+      <guid isPermaLink="false">South Carolina@1730855817.28</guid>
+  </item>
+
+
+  <item>
+      <description>Kentucky: trump-d +1113238</description>
+      <pubDate>Wed, 06 Nov 2024 01:17:05 -0000</pubDate>
+      <guid isPermaLink="false">Kentucky@1730855825.967</guid>
+  </item>
+
+
+  <item>
+      <description>Tennessee: trump-d +385037</description>
+      <pubDate>Wed, 06 Nov 2024 01:17:09 -0000</pubDate>
+      <guid isPermaLink="false">Tennessee@1730855829.67</guid>
+  </item>
+>>>>>>> 16658969 (ok)
 
 
  </channel>
