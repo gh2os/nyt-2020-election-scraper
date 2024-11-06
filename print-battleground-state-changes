@@ -13,7 +13,7 @@ import subprocess
 import json
 from textwrap import dedent, indent
 from tabulate import tabulate
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 
 # Constants and state indexes
 AK_INDEX = 0
