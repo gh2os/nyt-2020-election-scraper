@@ -1,25 +1,14 @@
-#!/usr/bin/env python3
-
 import os
-import json
-import hashlib
-import subprocess
-import collections
-import datetime
 import git
 import simdjson
-from textwrap import dedent, indent
-from tabulate import tabulate
-from typing import Dict, Tuple
+import subprocess
+from typing import Dict, List, Tuple
+from collections import namedtuple, defaultdict
 
+CACHE_VERSION = 3
 CACHE_DIR = '_cache'
-CACHE_VERSION = 3  # Updated cache version
 
-# Battleground states
-BATTLEGROUND_STATES = ["Wisconsin", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania", "Michigan"]
-
-# Named tuple definitions
-InputRecord = collections.namedtuple(
+InputRecord = namedtuple(
     'InputRecord',
     [
         'timestamp',
@@ -32,36 +21,6 @@ InputRecord = collections.namedtuple(
         'precincts_total',
         'precincts_reporting',
         'counties',
-    ],
-)
-
-IterationInfo = collections.namedtuple(
-    'IterationInfo',
-    ['vote_diff', 'votes', 'precincts_reporting', 'hurdle', 'leading_candidate_name', 'counties', 'candidate_votes']
-)
-
-IterationSummary = collections.namedtuple(
-    'IterationSummary',
-    [
-        'timestamp',
-        'leading_candidate_name',
-        'trailing_candidate_name',
-        'leading_candidate_votes',
-        'trailing_candidate_votes',
-        'vote_differential',
-        'votes_remaining',
-        'new_votes',
-        'new_votes_relevant',
-        'new_votes_formatted',
-        'leading_candidate_partition',
-        'trailing_candidate_partition',
-        'precincts_reporting',
-        'precincts_total',
-        'hurdle',
-        'hurdle_change',
-        'hurdle_mov_avg',
-        'counties_partition',
-        'total_votes_count',
     ]
 )
 
@@ -76,8 +35,8 @@ def fetch_all_records():
     commits = git_commits_for("results.json")
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
     out = []
+
     parser = simdjson.Parser()
-    
     for ref in commits:
         cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
         if os.path.exists(cache_path):
@@ -90,34 +49,33 @@ def fetch_all_records():
                     for row in record['rows']:
                         out.append(InputRecord(*row))
                     continue
-        
-        # Load data from the `results.json` structure
+
         blob = git_show(ref, 'results.json', repo)
         json_data = parser.parse(blob)
         
-        timestamp = json_data['races'][0]['updated_at']
-        rows = []
-        
         for race in json_data['races']:
+            # Attempt to get timestamp from `provider_updated_at` or `updated_at`
+            timestamp = race.get('updated_at') or race['reporting_units'][0].get('provider_updated_at', "Unknown Timestamp")
+            
             for unit in race['reporting_units']:
                 state_name = unit['name']
-                state_abbrev = unit['state_postal']
-                electoral_votes = race.get('electoral_votes', None)
+                state_abbrev = unit.get('state_postal')
+                electoral_votes = race.get('outcome', {}).get('electoral_votes')
                 total_votes = unit['total_votes']
                 expected_votes = unit['total_expected_vote']
                 precincts_total = unit['precincts_total']
                 precincts_reporting = unit['precincts_reporting']
 
+                # Process candidate information
                 candidates = []
                 for candidate in unit['candidates']:
-                    candidate_id = candidate['nyt_id']
                     candidate_votes = candidate['votes']['total']
                     candidates.append({
-                        'id': candidate_id,
+                        'id': candidate['nyt_id'],
                         'votes': candidate_votes,
                         'leader': candidate['leader']
                     })
-                
+
                 record = InputRecord(
                     timestamp=timestamp,
                     state_name=state_name,
@@ -130,87 +88,19 @@ def fetch_all_records():
                     precincts_reporting=precincts_reporting,
                     counties={}
                 )
-                rows.append(record)
                 out.append(record)
-        
+
+        # Save to cache
         try:
             os.makedirs(os.path.dirname(cache_path))
         except FileExistsError:
             pass
         with open(cache_path, 'w') as fh:
-            simdjson.dump({"version": CACHE_VERSION, "rows": rows}, fh)
+            simdjson.dump({"version": CACHE_VERSION, "rows": out}, fh)
 
-    grouped = collections.defaultdict(list)
+    # Group data by state
+    grouped = defaultdict(list)
     for row in out:
         grouped[row.state_name].append(row)
-    
+
     return grouped
-
-def compute_hurdle_sma(summarized_state_data, newest_votes, new_partition_pct, trailing_candidate_name):
-    hurdle_moving_average = None
-    MIN_AGG_VOTES = 30000
-
-    agg_votes = newest_votes
-    agg_c2_votes = round(new_partition_pct * newest_votes)
-    step = 0
-    while step < len(summarized_state_data) and agg_votes < MIN_AGG_VOTES:
-        this_summary = summarized_state_data[step]
-        step += 1
-        if this_summary.new_votes_relevant > 0:
-            trailing_candidate_partition = this_summary.trailing_candidate_partition if this_summary.trailing_candidate_name == trailing_candidate_name else this_summary.leading_candidate_partition
-
-            if this_summary.new_votes_relevant + agg_votes > MIN_AGG_VOTES:
-                subset_pct = (MIN_AGG_VOTES - agg_votes) / float(this_summary.new_votes_relevant)
-                agg_votes += round(this_summary.new_votes_relevant * subset_pct)
-                agg_c2_votes += round(trailing_candidate_partition * this_summary.new_votes_relevant * subset_pct)
-            else:
-                agg_votes += this_summary.new_votes_relevant
-                agg_c2_votes += round(trailing_candidate_partition * this_summary.new_votes_relevant)
-
-    if agg_votes:
-        hurdle_moving_average = float(agg_c2_votes) / agg_votes
-
-    return hurdle_moving_average
-
-def string_summary(summary):
-    thirty_ago = (datetime.datetime.utcnow() - datetime.timedelta(minutes=30))
-
-    bumped = summary.leading_candidate_partition
-    bumped_name = summary.leading_candidate_name
-    if bumped < summary.trailing_candidate_partition:
-        bumped = summary.trailing_candidate_partition
-        bumped_name = summary.trailing_candidate_name
-    bumped -= 0.50
-
-    lead_part = summary.leading_candidate_partition - 50
-
-    visible_hurdle = f'{summary.trailing_candidate_name} needs {summary.hurdle:.2%}' if summary.hurdle > 0 else 'Unknown'
-
-    return [
-        f'{summary.timestamp.strftime("%Y-%m-%d %H:%M")}',
-        '***' if summary.timestamp > thirty_ago else '---',
-        f'{summary.leading_candidate_name} up {summary.vote_differential:,}',
-        f'Left (est.): {summary.votes_remaining:,}' if summary.votes_remaining > 0 else 'Unknown',
-        f'Δ: {summary.new_votes_formatted} ({f"{bumped_name} +{bumped:5.01%}" if (summary.leading_candidate_partition or summary.trailing_candidate_partition)  else "n/a"})',
-        f'{summary.precincts_reporting/summary.precincts_total:.2%} precincts',
-        f'{visible_hurdle}',
-        f'& trends  {f"{summary.hurdle_mov_avg:.2%}" if summary.hurdle_mov_avg else "n/a"}'
-    ]
-
-# Update txt_output and html_output similarly to handle `results.json` structure
-
-# Capture the scrape time at the top of the script
-scrape_time = datetime.datetime.utcnow()
-
-# Load records and group by state
-records = fetch_all_records()
-
-# Summarized data dictionaries
-summarized = {}
-state_formatted_name = {}
-state_abbrev = {}
-
-# Parse data for summaries (txt, HTML, etc.) as in the original script,
-# ensuring all candidate and vote accesses align with the new `results.json` format.
-
-# Example of a potential usage of these functions
