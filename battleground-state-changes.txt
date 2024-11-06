@@ -1,5 +1,5 @@
 ----------------------  ----------------------------------------------------------------
-Last updated:           2024-11-06 04:33 UTC
+Last updated:           2024-11-06 04:50 UTC
 Latest batch received:  (Alaska, Arizona, Georgia, North Carolina, Nevada, Pennsylvania)
 Web version:            https://example.com
 ----------------------  ----------------------------------------------------------------
@@ -24,10 +24,12 @@ Alabama - Total Votes:
 2024-11-06 03:44  trump-d leading by 492,678  Votes remaining (est.): 1036283  Change: 1,329,666  Precincts reporting: 56.21%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  trump-d leading by 537,351  Votes remaining (est.): 947373   Change: 1,440,820  Precincts reporting: 60.36%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 663,342  Votes remaining (est.): 512247   Change: 1,850,294  Precincts reporting: 78.30%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:43  trump-d leading by 663,027  Votes remaining (est.): 234650   Change: 2,080,758  Precincts reporting: 89.84%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Alaska - Total Votes:
 ----------------  ---------------------  ------------------------------  ---------  --------------------------  --------------------------------------  ----------
+2024-11-05 19:04  harris-k leading by 0  Votes remaining (est.): 390000  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 19:04  harris-k leading by 0  Votes remaining (est.): 390000  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 19:04  harris-k leading by 0  Votes remaining (est.): 390000  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 19:04  harris-k leading by 0  Votes remaining (est.): 390000  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
@@ -68,6 +70,7 @@ Arizona - Total Votes:
 2024-11-06 03:35  trump-d leading by 1,046    Votes remaining (est.): 1836115  Change: 1,819,194  Precincts reporting: 49.77%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:55  trump-d leading by 2,356    Votes remaining (est.): 1834311  Change: 1,820,998  Precincts reporting: 49.83%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:18  trump-d leading by 2,356    Votes remaining (est.): 1835125  Change: 1,820,998  Precincts reporting: 49.83%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:43  trump-d leading by 7,025    Votes remaining (est.): 1828144  Change: 1,827,979  Precincts reporting: 50.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Arkansas - Total Votes:
@@ -90,29 +93,31 @@ Arkansas - Total Votes:
 2024-11-06 03:44  trump-d leading by 273,178  Votes remaining (est.): 319888   Change: 902,840    Precincts reporting: 73.85%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 286,460  Votes remaining (est.): 286556   Change: 934,967    Precincts reporting: 76.56%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  trump-d leading by 319,790  Votes remaining (est.): 199770   Change: 1,025,073  Precincts reporting: 83.70%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  trump-d leading by 321,972  Votes remaining (est.): 157892   Change: 1,092,460  Precincts reporting: 87.36%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 California - Total Votes:
-----------------  ---------------------------  --------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:31  harris-k leading by 0        Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 04:29  harris-k leading by 734,751  Votes remaining (est.): 14715677  Change: 3,425,966  Precincts reporting: 18.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  ---------------------------  --------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+----------------  -----------------------------  --------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:31  harris-k leading by 0          Votes remaining (est.): 15775339  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:29  harris-k leading by 734,751    Votes remaining (est.): 14715677  Change: 3,425,966  Precincts reporting: 18.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 1,771,648  Votes remaining (est.): 11350343  Change: 6,791,300  Precincts reporting: 37.44%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  -----------------------------  --------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Colorado - Total Votes:
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
@@ -134,6 +139,7 @@ Colorado - Total Votes:
 2024-11-06 03:42  harris-k leading by 279,997  Votes remaining (est.): 1363890  Change: 2,265,235  Precincts reporting: 62.43%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  harris-k leading by 279,426  Votes remaining (est.): 1354653  Change: 2,274,472  Precincts reporting: 62.68%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 282,582  Votes remaining (est.): 1300743  Change: 2,328,382  Precincts reporting: 64.15%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  harris-k leading by 281,584  Votes remaining (est.): 1294171  Change: 2,334,954  Precincts reporting: 64.33%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Connecticut - Total Votes:
@@ -156,6 +162,7 @@ Connecticut - Total Votes:
 2024-11-06 03:44  harris-k leading by 40,508  Votes remaining (est.): 1431194  Change: 374,860  Precincts reporting: 24.31%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  harris-k leading by 41,074  Votes remaining (est.): 1391677  Change: 414,545  Precincts reporting: 27.61%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  harris-k leading by 67,565  Votes remaining (est.): 1178020  Change: 625,313  Precincts reporting: 40.95%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 64,614  Votes remaining (est.): 1080023  Change: 731,398  Precincts reporting: 46.90%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Delaware - Total Votes:
@@ -178,6 +185,7 @@ Delaware - Total Votes:
 2024-11-06 03:43  harris-k leading by 72,822  Votes remaining (est.): 54851   Change: 505,420  Precincts reporting: 90.24%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:45  harris-k leading by 72,822  Votes remaining (est.): 55729   Change: 505,420  Precincts reporting: 90.06%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:45  harris-k leading by 72,822  Votes remaining (est.): 55729   Change: 505,420  Precincts reporting: 90.06%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  harris-k leading by 72,822  Votes remaining (est.): 55729   Change: 505,420  Precincts reporting: 90.06%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Florida - Total Votes:
@@ -200,6 +208,7 @@ Florida - Total Votes:
 2024-11-06 03:41  trump-d leading by 1,444,010  Votes remaining (est.): 369826   Change: 10,774,134  Precincts reporting: 96.68%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:52  trump-d leading by 1,443,717  Votes remaining (est.): 354337   Change: 10,789,623  Precincts reporting: 96.82%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:25  trump-d leading by 1,443,620  Votes remaining (est.): 289350   Change: 10,812,730  Precincts reporting: 97.39%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 1,443,458  Votes remaining (est.): 288378   Change: 10,813,702  Precincts reporting: 97.41%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ----------------------------  -------------------------------  ------------------  ---------------------------  --------------------------------------  ----------
 
 Georgia - Total Votes:
@@ -222,10 +231,12 @@ Georgia - Total Votes:
 2024-11-06 03:44  trump-d leading by 156,413  Votes remaining (est.): 641143   Change: 4,761,250  Precincts reporting: 43.43%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 142,022  Votes remaining (est.): 538797   Change: 4,863,596  Precincts reporting: 65.20%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 134,966  Votes remaining (est.): 494233   Change: 5,008,160  Precincts reporting: 54.65%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 134,966  Votes remaining (est.): 494233   Change: 5,008,160  Precincts reporting: 62.90%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Hawaii - Total Votes:
 ----------------  ---------------------  ------------------------------  ---------  --------------------------  --------------------------------------  ----------
+2024-11-05 16:28  harris-k leading by 0  Votes remaining (est.): 585267  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 16:28  harris-k leading by 0  Votes remaining (est.): 585267  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 16:28  harris-k leading by 0  Votes remaining (est.): 585267  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 16:28  harris-k leading by 0  Votes remaining (est.): 585267  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
@@ -266,6 +277,7 @@ Idaho - Total Votes:
 2024-11-05 16:38  harris-k leading by 0      Votes remaining (est.): 826529  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 16:38  harris-k leading by 0      Votes remaining (est.): 826529  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  trump-d leading by 21,715  Votes remaining (est.): 657234  Change: 169,295  Precincts reporting: 20.51%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 54,720  Votes remaining (est.): 568457  Change: 255,588  Precincts reporting: 30.97%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  -------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Illinois - Total Votes:
@@ -288,6 +300,7 @@ Illinois - Total Votes:
 2024-11-06 03:44  harris-k leading by 417,332  Votes remaining (est.): 1744471  Change: 4,458,344  Precincts reporting: 79.21%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 423,422  Votes remaining (est.): 1315391  Change: 4,669,068  Precincts reporting: 82.58%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 412,886  Votes remaining (est.): 1152018  Change: 4,828,332  Precincts reporting: 85.43%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 419,788  Votes remaining (est.): 1051747  Change: 4,871,562  Precincts reporting: 86.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Indiana - Total Votes:
@@ -310,6 +323,7 @@ Indiana - Total Votes:
 2024-11-06 03:43  trump-d leading by 490,006  Votes remaining (est.): 600274   Change: 2,566,365  Precincts reporting: 81.05%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  trump-d leading by 493,437  Votes remaining (est.): 590363   Change: 2,572,692  Precincts reporting: 81.34%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 501,091  Votes remaining (est.): 538263   Change: 2,620,273  Precincts reporting: 82.96%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  trump-d leading by 501,525  Votes remaining (est.): 434703   Change: 2,626,054  Precincts reporting: 85.80%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Iowa - Total Votes:
@@ -332,6 +346,7 @@ Iowa - Total Votes:
 2024-11-06 03:44  trump-d leading by 137,749  Votes remaining (est.): 760285   Change: 1,024,942  Precincts reporting: 55.47%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 166,016  Votes remaining (est.): 543334   Change: 1,228,667  Precincts reporting: 69.87%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  trump-d leading by 178,287  Votes remaining (est.): 337750   Change: 1,410,867  Precincts reporting: 86.63%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 193,608  Votes remaining (est.): 248593   Change: 1,452,181  Precincts reporting: 89.05%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Kansas - Total Votes:
@@ -354,6 +369,7 @@ Kansas - Total Votes:
 2024-11-06 03:44  trump-d leading by 115,336  Votes remaining (est.): 412084   Change: 992,187    Precincts reporting: 59.91%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 137,797  Votes remaining (est.): 309517   Change: 1,095,984  Precincts reporting: 73.29%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 155,324  Votes remaining (est.): 230249   Change: 1,145,908  Precincts reporting: 80.61%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 159,215  Votes remaining (est.): 220378   Change: 1,153,293  Precincts reporting: 81.68%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Kentucky - Total Votes:
@@ -376,29 +392,31 @@ Kentucky - Total Votes:
 2024-11-06 03:43  trump-d leading by 633,983  Votes remaining (est.): 87477    Change: 2,059,547  Precincts reporting: 95.92%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 633,983  Votes remaining (est.): 87101    Change: 2,059,547  Precincts reporting: 95.95%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  trump-d leading by 634,909  Votes remaining (est.): 73746    Change: 2,067,813  Precincts reporting: 96.57%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:27  trump-d leading by 634,909  Votes remaining (est.): 73746    Change: 2,067,813  Precincts reporting: 96.57%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Louisiana - Total Votes:
-----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:00  trump-d leading by 0        Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:11  trump-d leading by 24,502   Votes remaining (est.): 2099533  Change: 52,122     Precincts reporting: 0.03%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:33  trump-d leading by 28,876   Votes remaining (est.): 2090103  Change: 61,552     Precincts reporting: 0.29%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:35  trump-d leading by 222,086  Votes remaining (est.): 1616124  Change: 535,531    Precincts reporting: 2.81%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:01  trump-d leading by 347,523  Votes remaining (est.): 1124400  Change: 1,024,053  Precincts reporting: 40.39%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:09  trump-d leading by 394,504  Votes remaining (est.): 929076   Change: 1,221,084  Precincts reporting: 54.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:18  trump-d leading by 441,595  Votes remaining (est.): 810200   Change: 1,340,529  Precincts reporting: 65.02%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:22  trump-d leading by 462,280  Votes remaining (est.): 734620   Change: 1,416,449  Precincts reporting: 71.33%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:29  trump-d leading by 469,920  Votes remaining (est.): 594368   Change: 1,556,973  Precincts reporting: 75.09%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:43  trump-d leading by 493,879  Votes remaining (est.): 455515   Change: 1,702,987  Precincts reporting: 86.25%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:57  trump-d leading by 470,170  Votes remaining (est.): 376060   Change: 1,780,735  Precincts reporting: 94.11%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 04:24  trump-d leading by 411,493  Votes remaining (est.): 123008   Change: 1,912,586  Precincts reporting: 98.74%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+----------------  --------------------------  -------------------------------  -----------------  ----------------------------  --------------------------------------  ----------
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 22:45  harris-k leading by 0       Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:00  trump-d leading by 0        Votes remaining (est.): 2151655  Change: 0          Precincts reporting: 0.00%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:11  trump-d leading by 24,502   Votes remaining (est.): 2099533  Change: 52,122     Precincts reporting: 0.03%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:33  trump-d leading by 28,876   Votes remaining (est.): 2090103  Change: 61,552     Precincts reporting: 0.29%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:35  trump-d leading by 222,086  Votes remaining (est.): 1616124  Change: 535,531    Precincts reporting: 2.81%    Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:01  trump-d leading by 347,523  Votes remaining (est.): 1124400  Change: 1,024,053  Precincts reporting: 40.39%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:09  trump-d leading by 394,504  Votes remaining (est.): 929076   Change: 1,221,084  Precincts reporting: 54.22%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:18  trump-d leading by 441,595  Votes remaining (est.): 810200   Change: 1,340,529  Precincts reporting: 65.02%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:22  trump-d leading by 462,280  Votes remaining (est.): 734620   Change: 1,416,449  Precincts reporting: 71.33%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:29  trump-d leading by 469,920  Votes remaining (est.): 594368   Change: 1,556,973  Precincts reporting: 75.09%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:43  trump-d leading by 493,879  Votes remaining (est.): 455515   Change: 1,702,987  Precincts reporting: 86.25%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:57  trump-d leading by 470,170  Votes remaining (est.): 376060   Change: 1,780,735  Precincts reporting: 94.11%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:24  trump-d leading by 411,493  Votes remaining (est.): 123008   Change: 1,912,586  Precincts reporting: 98.74%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:38  trump-d leading by 407,349  Votes remaining (est.): 109228   Change: 1,926,428  Precincts reporting: 100.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  --------------------------  -------------------------------  -----------------  ----------------------------  --------------------------------------  ----------
 
 Maine - Total Votes:
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
@@ -456,6 +474,9 @@ Maine - Total Votes:
 2024-11-06 04:28  trump-d leading by 17,794   Votes remaining (est.): 309982  Change: 102,233  Precincts reporting: 29.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 30,113  Votes remaining (est.): 348838  Change: 109,263  Precincts reporting: 31.17%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 12,319  Votes remaining (est.): 658792  Change: 211,496  Precincts reporting: 29.74%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 30,382  Votes remaining (est.): 337940  Change: 120,161  Precincts reporting: 33.77%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 19,106   Votes remaining (est.): 284957  Change: 127,304  Precincts reporting: 33.97%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 11,276  Votes remaining (est.): 622869  Change: 247,465  Precincts reporting: 33.91%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Maryland - Total Votes:
@@ -478,6 +499,7 @@ Maryland - Total Votes:
 2024-11-06 03:44  harris-k leading by 515,144  Votes remaining (est.): 822996   Change: 2,298,290  Precincts reporting: 84.12%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 516,937  Votes remaining (est.): 802486   Change: 2,318,800  Precincts reporting: 85.65%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:24  harris-k leading by 530,388  Votes remaining (est.): 731993   Change: 2,393,348  Precincts reporting: 92.95%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 535,883  Votes remaining (est.): 716858   Change: 2,408,483  Precincts reporting: 94.08%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Massachusetts - Total Votes:
@@ -500,6 +522,7 @@ Massachusetts - Total Votes:
 2024-11-06 03:44  harris-k leading by 378,564  Votes remaining (est.): 2232247  Change: 1,463,492  Precincts reporting: 39.33%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 411,599  Votes remaining (est.): 2094123  Change: 1,597,312  Precincts reporting: 43.64%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 516,378  Votes remaining (est.): 1682362  Change: 1,988,489  Precincts reporting: 56.36%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 558,646  Votes remaining (est.): 1494674  Change: 2,170,105  Precincts reporting: 60.46%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Michigan - Total Votes:
@@ -522,29 +545,31 @@ Michigan - Total Votes:
 2024-11-06 03:44  trump-d leading by 16,748   Votes remaining (est.): 4468403  Change: 1,432,140  Precincts reporting: 15.32%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 61,757   Votes remaining (est.): 4334756  Change: 1,565,787  Precincts reporting: 16.96%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 130,124  Votes remaining (est.): 3906133  Change: 1,993,799  Precincts reporting: 23.76%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 111,018  Votes remaining (est.): 3536145  Change: 2,363,506  Precincts reporting: 28.24%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Minnesota - Total Votes:
-----------------  --------------------------  -------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 17:30  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:00  harris-k leading by 0       Votes remaining (est.): 3334872  Change: 0        Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:09  trump-d leading by 651      Votes remaining (est.): 3333071  Change: 1,801    Precincts reporting: 0.10%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:33  trump-d leading by 2,592    Votes remaining (est.): 3320959  Change: 13,913   Precincts reporting: 1.12%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:34  trump-d leading by 2,584    Votes remaining (est.): 3319471  Change: 15,401   Precincts reporting: 1.15%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 10,624   Votes remaining (est.): 3266985  Change: 67,887   Precincts reporting: 3.14%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:08  trump-d leading by 12,640   Votes remaining (est.): 3262091  Change: 72,781   Precincts reporting: 3.24%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:14  trump-d leading by 13,535   Votes remaining (est.): 3257828  Change: 77,044   Precincts reporting: 3.70%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:22  trump-d leading by 20,989   Votes remaining (est.): 3232275  Change: 102,597  Precincts reporting: 5.95%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:26  trump-d leading by 20,989   Votes remaining (est.): 3232275  Change: 102,597  Precincts reporting: 5.95%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:42  trump-d leading by 43,457   Votes remaining (est.): 3157099  Change: 177,773  Precincts reporting: 8.97%   Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:55  trump-d leading by 74,882   Votes remaining (est.): 3030139  Change: 303,593  Precincts reporting: 13.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 04:28  trump-d leading by 131,915  Votes remaining (est.): 2789777  Change: 541,975  Precincts reporting: 23.67%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  --------------------------  -------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
+----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 17:30  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:00  harris-k leading by 0        Votes remaining (est.): 3334872  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:09  trump-d leading by 651       Votes remaining (est.): 3333071  Change: 1,801      Precincts reporting: 0.10%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:33  trump-d leading by 2,592     Votes remaining (est.): 3320959  Change: 13,913     Precincts reporting: 1.12%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:34  trump-d leading by 2,584     Votes remaining (est.): 3319471  Change: 15,401     Precincts reporting: 1.15%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 10,624    Votes remaining (est.): 3266985  Change: 67,887     Precincts reporting: 3.14%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:08  trump-d leading by 12,640    Votes remaining (est.): 3262091  Change: 72,781     Precincts reporting: 3.24%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:14  trump-d leading by 13,535    Votes remaining (est.): 3257828  Change: 77,044     Precincts reporting: 3.70%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:22  trump-d leading by 20,989    Votes remaining (est.): 3232275  Change: 102,597    Precincts reporting: 5.95%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:26  trump-d leading by 20,989    Votes remaining (est.): 3232275  Change: 102,597    Precincts reporting: 5.95%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:42  trump-d leading by 43,457    Votes remaining (est.): 3157099  Change: 177,773    Precincts reporting: 8.97%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:55  trump-d leading by 74,882    Votes remaining (est.): 3030139  Change: 303,593    Precincts reporting: 13.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:28  trump-d leading by 131,915   Votes remaining (est.): 2789777  Change: 541,975    Precincts reporting: 23.67%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  harris-k leading by 154,272  Votes remaining (est.): 1607506  Change: 1,698,325  Precincts reporting: 45.65%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Mississippi - Total Votes:
 ----------------  --------------------------  -------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
@@ -566,6 +591,7 @@ Mississippi - Total Votes:
 2024-11-06 03:44  trump-d leading by 212,207  Votes remaining (est.): 398046   Change: 801,036  Precincts reporting: 75.56%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 230,910  Votes remaining (est.): 305315   Change: 865,618  Precincts reporting: 81.14%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 258,394  Votes remaining (est.): 152799   Change: 969,258  Precincts reporting: 89.86%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 257,169  Votes remaining (est.): 129168   Change: 991,103  Precincts reporting: 92.54%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Missouri - Total Votes:
@@ -588,29 +614,31 @@ Missouri - Total Votes:
 2024-11-06 03:43  trump-d leading by 200,048  Votes remaining (est.): 1429654  Change: 1,814,092  Precincts reporting: 33.59%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 250,780  Votes remaining (est.): 939450   Change: 2,068,673  Precincts reporting: 38.71%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 326,517  Votes remaining (est.): 665135   Change: 2,381,122  Precincts reporting: 42.77%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 392,781  Votes remaining (est.): 552604   Change: 2,568,122  Precincts reporting: 44.64%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Montana - Total Votes:
-----------------  -------------------------  ------------------------------  --------------  --------------------------  --------------------------------------  ----------
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:01  trump-d leading by 204     Votes remaining (est.): 605027  Change: 12,626  Precincts reporting: 2.05%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:10  trump-d leading by 0       Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:20  trump-d leading by 0       Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:27  trump-d leading by 4,404   Votes remaining (est.): 604356  Change: 13,310  Precincts reporting: 2.19%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:41  trump-d leading by 7,126   Votes remaining (est.): 590266  Change: 27,400  Precincts reporting: 4.38%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:57  trump-d leading by 8,356   Votes remaining (est.): 579921  Change: 33,909  Precincts reporting: 5.47%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 04:29  trump-d leading by 12,246  Votes remaining (est.): 571778  Change: 42,023  Precincts reporting: 6.84%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  -------------------------  ------------------------------  --------------  --------------------------  --------------------------------------  ----------
+----------------  -------------------------  ------------------------------  --------------  ---------------------------  --------------------------------------  ----------
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-05 19:33  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:17  harris-k leading by 0      Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:01  trump-d leading by 204     Votes remaining (est.): 605027  Change: 12,626  Precincts reporting: 2.05%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:10  trump-d leading by 0       Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:20  trump-d leading by 0       Votes remaining (est.): 617653  Change: 0       Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:27  trump-d leading by 4,404   Votes remaining (est.): 604356  Change: 13,310  Precincts reporting: 2.19%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:41  trump-d leading by 7,126   Votes remaining (est.): 590266  Change: 27,400  Precincts reporting: 4.38%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:57  trump-d leading by 8,356   Votes remaining (est.): 579921  Change: 33,909  Precincts reporting: 5.47%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:29  trump-d leading by 12,246  Votes remaining (est.): 571778  Change: 42,023  Precincts reporting: 6.84%   Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 22,268  Votes remaining (est.): 533291  Change: 79,744  Precincts reporting: 13.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  -------------------------  ------------------------------  --------------  ---------------------------  --------------------------------------  ----------
 
 Nebraska - Total Votes:
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
@@ -686,6 +714,10 @@ Nebraska - Total Votes:
 2024-11-06 04:29  trump-d leading by 735      Votes remaining (est.): 125955  Change: 171,219  Precincts reporting: 57.73%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 51,715   Votes remaining (est.): 365508  Change: 541,554  Precincts reporting: 59.73%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 72,413   Votes remaining (est.): 179153  Change: 144,256  Precincts reporting: 44.65%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:42  trump-d leading by 1,012    Votes remaining (est.): 123018  Change: 174,069  Precincts reporting: 58.70%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 56,973   Votes remaining (est.): 341123  Change: 565,287  Precincts reporting: 62.37%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 76,321   Votes remaining (est.): 172975  Change: 149,821  Precincts reporting: 46.38%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 20,360  Votes remaining (est.): 46380   Change: 241,397  Precincts reporting: 84.06%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Nevada - Total Votes:
@@ -701,6 +733,7 @@ Nevada - Total Votes:
 2024-11-05 21:34  harris-k leading by 0  Votes remaining (est.): 1421759  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-05 21:34  harris-k leading by 0  Votes remaining (est.): 1421759  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:00  harris-k leading by 0  Votes remaining (est.): 1354439  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:01  harris-k leading by 0  Votes remaining (est.): 1354439  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:01  harris-k leading by 0  Votes remaining (est.): 1354439  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:01  harris-k leading by 0  Votes remaining (est.): 1354439  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:01  harris-k leading by 0  Votes remaining (est.): 1354439  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
@@ -730,6 +763,7 @@ New Hampshire - Total Votes:
 2024-11-06 03:44  harris-k leading by 21,900  Votes remaining (est.): 320370  Change: 498,845  Precincts reporting: 60.19%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 24,733  Votes remaining (est.): 308860  Change: 511,491  Precincts reporting: 62.38%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 25,394  Votes remaining (est.): 242978  Change: 579,181  Precincts reporting: 70.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:42  harris-k leading by 26,880  Votes remaining (est.): 209103  Change: 613,112  Precincts reporting: 73.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 New Jersey - Total Votes:
@@ -752,6 +786,7 @@ New Jersey - Total Votes:
 2024-11-06 03:44  harris-k leading by 208,418  Votes remaining (est.): 928547   Change: 3,516,365  Precincts reporting: 79.10%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  harris-k leading by 202,946  Votes remaining (est.): 783384   Change: 3,661,528  Precincts reporting: 82.37%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 185,574  Votes remaining (est.): 577877   Change: 3,823,680  Precincts reporting: 86.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:39  harris-k leading by 184,513  Votes remaining (est.): 567908   Change: 3,833,649  Precincts reporting: 87.10%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 New Mexico - Total Votes:
@@ -774,6 +809,7 @@ New Mexico - Total Votes:
 2024-11-06 03:44  harris-k leading by 49,128  Votes remaining (est.): 356786  Change: 582,942  Precincts reporting: 62.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 44,231  Votes remaining (est.): 324543  Change: 615,185  Precincts reporting: 65.47%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 35,822  Votes remaining (est.): 255660  Change: 684,005  Precincts reporting: 72.80%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:44  harris-k leading by 39,678  Votes remaining (est.): 214168  Change: 725,348  Precincts reporting: 77.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 New York - Total Votes:
@@ -796,6 +832,7 @@ New York - Total Votes:
 2024-11-06 03:44  harris-k leading by 949,379    Votes remaining (est.): 2313135  Change: 6,270,663  Precincts reporting: 73.06%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 981,225    Votes remaining (est.): 1955400  Change: 6,674,197  Precincts reporting: 77.34%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 902,360    Votes remaining (est.): 1434954  Change: 7,211,748  Precincts reporting: 83.40%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 879,664    Votes remaining (est.): 1313219  Change: 7,340,506  Precincts reporting: 84.83%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  -----------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 North Carolina - Total Votes:
@@ -818,6 +855,7 @@ North Carolina - Total Votes:
 2024-11-06 03:43  trump-d leading by 123,192  Votes remaining (est.): 934712   Change: 4,847,466  Precincts reporting: 74.12%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:56  trump-d leading by 141,861  Votes remaining (est.): 780708   Change: 4,921,530  Precincts reporting: 76.75%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 134,804  Votes remaining (est.): 642409   Change: 5,065,423  Precincts reporting: 84.95%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 142,203  Votes remaining (est.): 554305   Change: 5,158,561  Precincts reporting: 90.52%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 North Dakota - Total Votes:
@@ -840,6 +878,7 @@ North Dakota - Total Votes:
 2024-11-06 03:41  trump-d leading by 79,310   Votes remaining (est.): 168569  Change: 191,299  Precincts reporting: 53.25%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:51  trump-d leading by 83,534   Votes remaining (est.): 164484  Change: 198,322  Precincts reporting: 54.55%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 109,716  Votes remaining (est.): 72195   Change: 278,767  Precincts reporting: 79.48%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 126,000  Votes remaining (est.): 39051   Change: 314,152  Precincts reporting: 88.83%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Ohio - Total Votes:
@@ -862,6 +901,7 @@ Ohio - Total Votes:
 2024-11-06 03:44  trump-d leading by 642,078  Votes remaining (est.): 978726   Change: 4,926,990  Precincts reporting: 78.70%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 637,134  Votes remaining (est.): 799384   Change: 5,087,621  Precincts reporting: 82.80%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  trump-d leading by 633,347  Votes remaining (est.): 485244   Change: 5,299,211  Precincts reporting: 88.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 625,178  Votes remaining (est.): 334296   Change: 5,444,813  Precincts reporting: 85.05%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Oklahoma - Total Votes:
@@ -884,6 +924,7 @@ Oklahoma - Total Votes:
 2024-11-06 03:44  trump-d leading by 516,866  Votes remaining (est.): 130369   Change: 1,500,217  Precincts reporting: 97.08%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:55  trump-d leading by 528,873  Votes remaining (est.): 62264    Change: 1,541,120  Precincts reporting: 98.94%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:22  trump-d leading by 533,692  Votes remaining (est.): 19824    Change: 1,556,697  Precincts reporting: 99.65%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:43  trump-d leading by 535,359  Votes remaining (est.): 20853    Change: 1,560,296  Precincts reporting: 99.70%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Oregon - Total Votes:
@@ -906,6 +947,7 @@ Oregon - Total Votes:
 2024-11-06 03:13  harris-k leading by 0        Votes remaining (est.): 2405652  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:13  harris-k leading by 0        Votes remaining (est.): 2405652  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 181,022  Votes remaining (est.): 998005   Change: 1,405,698  Precincts reporting: 58.45%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 178,607  Votes remaining (est.): 957827   Change: 1,443,421  Precincts reporting: 60.12%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Pennsylvania - Total Votes:
@@ -928,6 +970,7 @@ Pennsylvania - Total Votes:
 2024-11-06 03:44  trump-d leading by 115,628   Votes remaining (est.): 2787747  Change: 4,237,809  Precincts reporting: 60.32%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 133,828   Votes remaining (est.): 2327635  Change: 4,696,264  Precincts reporting: 66.86%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  trump-d leading by 177,441   Votes remaining (est.): 1661257  Change: 5,366,030  Precincts reporting: 76.37%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 217,023   Votes remaining (est.): 1305038  Change: 5,724,433  Precincts reporting: 81.43%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Rhode Island - Total Votes:
@@ -944,6 +987,7 @@ Rhode Island - Total Votes:
 2024-11-06 02:30  harris-k leading by 37,257  Votes remaining (est.): 118024  Change: 412,725  Precincts reporting: 96.03%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 02:42  harris-k leading by 37,037  Votes remaining (est.): 108764  Change: 421,985  Precincts reporting: 96.47%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:08  harris-k leading by 39,078  Votes remaining (est.): 88793   Change: 441,956  Precincts reporting: 98.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:18  harris-k leading by 39,023  Votes remaining (est.): 88417   Change: 442,332  Precincts reporting: 98.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:18  harris-k leading by 39,023  Votes remaining (est.): 88417   Change: 442,332  Precincts reporting: 98.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:18  harris-k leading by 39,023  Votes remaining (est.): 88417   Change: 442,332  Precincts reporting: 98.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:18  harris-k leading by 39,023  Votes remaining (est.): 88417   Change: 442,332  Precincts reporting: 98.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
@@ -972,6 +1016,7 @@ South Carolina - Total Votes:
 2024-11-06 03:44  trump-d leading by 405,695  Votes remaining (est.): 255446   Change: 2,217,220  Precincts reporting: 82.63%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:54  trump-d leading by 411,296  Votes remaining (est.): 227424   Change: 2,245,207  Precincts reporting: 84.97%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 439,646  Votes remaining (est.): 88445    Change: 2,419,381  Precincts reporting: 96.10%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 445,851  Votes remaining (est.): 92552    Change: 2,430,175  Precincts reporting: 96.45%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 South Dakota - Total Votes:
@@ -994,6 +1039,7 @@ South Dakota - Total Votes:
 2024-11-06 03:44  trump-d leading by 23,979  Votes remaining (est.): 381688  Change: 61,036   Precincts reporting: 20.12%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 31,431  Votes remaining (est.): 355638  Change: 86,107   Precincts reporting: 24.02%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  trump-d leading by 40,219  Votes remaining (est.): 332292  Change: 108,116  Precincts reporting: 31.98%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:45  trump-d leading by 50,476  Votes remaining (est.): 302068  Change: 138,340  Precincts reporting: 38.21%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  -------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Tennessee - Total Votes:
@@ -1016,6 +1062,7 @@ Tennessee - Total Votes:
 2024-11-06 03:44  trump-d leading by 900,101  Votes remaining (est.): 497995   Change: 2,878,633  Precincts reporting: 85.26%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 894,719  Votes remaining (est.): 464137   Change: 2,913,520  Precincts reporting: 86.28%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  trump-d leading by 901,531  Votes remaining (est.): 387509   Change: 2,984,025  Precincts reporting: 88.53%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:44  trump-d leading by 907,829  Votes remaining (est.): 378115   Change: 2,994,335  Precincts reporting: 88.80%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Texas - Total Votes:
@@ -1038,29 +1085,31 @@ Texas - Total Votes:
 2024-11-06 03:44  trump-d leading by 1,245,233  Votes remaining (est.): 3483155  Change: 9,216,845  Precincts reporting: 72.57%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 1,280,536  Votes remaining (est.): 3359034  Change: 9,340,966  Precincts reporting: 73.56%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 1,395,393  Votes remaining (est.): 3017875  Change: 9,682,125  Precincts reporting: 76.24%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 1,431,102  Votes remaining (est.): 2901279  Change: 9,798,721  Precincts reporting: 77.16%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ----------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Utah - Total Votes:
-----------------  ---------------------  -------------------------------  ---------  --------------------------  --------------------------------------  ----------
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:11  harris-k leading by 0  Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:00  trump-d leading by 0   Votes remaining (est.): 1616640  Change: 0  Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  ---------------------  -------------------------------  ---------  --------------------------  --------------------------------------  ----------
+----------------  ------------------------  -------------------------------  -------------  --------------------------  --------------------------------------  ----------
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:11  harris-k leading by 0     Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:00  trump-d leading by 0      Votes remaining (est.): 1616640  Change: 0      Precincts reporting: 0.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:34  trump-d leading by 1,125  Votes remaining (est.): 1611777  Change: 4,863  Precincts reporting: 0.29%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  ------------------------  -------------------------------  -------------  --------------------------  --------------------------------------  ----------
 
 Vermont - Total Votes:
 ----------------  ---------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
@@ -1082,29 +1131,31 @@ Vermont - Total Votes:
 2024-11-06 03:43  harris-k leading by 106,425  Votes remaining (est.): 46749   Change: 328,542  Precincts reporting: 84.10%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 108,153  Votes remaining (est.): 38766   Change: 337,732  Precincts reporting: 87.63%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  harris-k leading by 110,586  Votes remaining (est.): 32708   Change: 344,938  Precincts reporting: 90.81%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:42  harris-k leading by 113,065  Votes remaining (est.): 26677   Change: 350,885  Precincts reporting: 92.93%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Virginia - Total Votes:
-----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
-2024-11-06 01:16  harris-k leading by 40,165  Votes remaining (est.): 3341192  Change: 1,470,355  Precincts reporting: 38.64%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:23  harris-k leading by 21,967  Votes remaining (est.): 3171615  Change: 1,639,844  Precincts reporting: 43.93%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:26  trump-d leading by 819      Votes remaining (est.): 3049995  Change: 1,765,221  Precincts reporting: 48.50%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:28  trump-d leading by 2,488    Votes remaining (est.): 3023260  Change: 1,791,956  Precincts reporting: 49.53%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:37  trump-d leading by 7,299    Votes remaining (est.): 2885363  Change: 1,919,752  Precincts reporting: 55.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 01:41  trump-d leading by 5,588    Votes remaining (est.): 2841934  Change: 1,956,520  Precincts reporting: 56.55%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:06  trump-d leading by 33,196   Votes remaining (est.): 2481029  Change: 2,319,111  Precincts reporting: 65.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:10  trump-d leading by 31,964   Votes remaining (est.): 2441752  Change: 2,358,388  Precincts reporting: 66.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:33  trump-d leading by 49,096   Votes remaining (est.): 2070252  Change: 2,703,256  Precincts reporting: 74.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 02:36  trump-d leading by 48,039   Votes remaining (est.): 2051767  Change: 2,712,673  Precincts reporting: 74.53%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:01  trump-d leading by 49,009   Votes remaining (est.): 1806907  Change: 2,896,129  Precincts reporting: 78.86%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:09  trump-d leading by 26,975   Votes remaining (est.): 1719071  Change: 3,028,785  Precincts reporting: 80.13%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:18  trump-d leading by 21,286   Votes remaining (est.): 1633905  Change: 3,100,852  Precincts reporting: 80.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:22  harris-k leading by 15,346  Votes remaining (est.): 1562494  Change: 3,169,521  Precincts reporting: 81.19%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:29  harris-k leading by 12,418  Votes remaining (est.): 1525519  Change: 3,213,304  Precincts reporting: 81.94%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:44  harris-k leading by 32,737  Votes remaining (est.): 1334635  Change: 3,402,933  Precincts reporting: 86.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 03:57  harris-k leading by 54,642  Votes remaining (est.): 1216596  Change: 3,520,972  Precincts reporting: 89.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
-2024-11-06 04:29  harris-k leading by 79,574  Votes remaining (est.): 1074354  Change: 3,662,707  Precincts reporting: 90.46%  Hurdle for trailing candidate: Unknown  Trend: n/a
-----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
+2024-11-06 01:16  harris-k leading by 40,165   Votes remaining (est.): 3341192  Change: 1,470,355  Precincts reporting: 38.64%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:23  harris-k leading by 21,967   Votes remaining (est.): 3171615  Change: 1,639,844  Precincts reporting: 43.93%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:26  trump-d leading by 819       Votes remaining (est.): 3049995  Change: 1,765,221  Precincts reporting: 48.50%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:28  trump-d leading by 2,488     Votes remaining (est.): 3023260  Change: 1,791,956  Precincts reporting: 49.53%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:37  trump-d leading by 7,299     Votes remaining (est.): 2885363  Change: 1,919,752  Precincts reporting: 55.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 01:41  trump-d leading by 5,588     Votes remaining (est.): 2841934  Change: 1,956,520  Precincts reporting: 56.55%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:06  trump-d leading by 33,196    Votes remaining (est.): 2481029  Change: 2,319,111  Precincts reporting: 65.22%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:10  trump-d leading by 31,964    Votes remaining (est.): 2441752  Change: 2,358,388  Precincts reporting: 66.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:33  trump-d leading by 49,096    Votes remaining (est.): 2070252  Change: 2,703,256  Precincts reporting: 74.01%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 02:36  trump-d leading by 48,039    Votes remaining (est.): 2051767  Change: 2,712,673  Precincts reporting: 74.53%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:01  trump-d leading by 49,009    Votes remaining (est.): 1806907  Change: 2,896,129  Precincts reporting: 78.86%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:09  trump-d leading by 26,975    Votes remaining (est.): 1719071  Change: 3,028,785  Precincts reporting: 80.13%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:18  trump-d leading by 21,286    Votes remaining (est.): 1633905  Change: 3,100,852  Precincts reporting: 80.88%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:22  harris-k leading by 15,346   Votes remaining (est.): 1562494  Change: 3,169,521  Precincts reporting: 81.19%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:29  harris-k leading by 12,418   Votes remaining (est.): 1525519  Change: 3,213,304  Precincts reporting: 81.94%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:44  harris-k leading by 32,737   Votes remaining (est.): 1334635  Change: 3,402,933  Precincts reporting: 86.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 03:57  harris-k leading by 54,642   Votes remaining (est.): 1216596  Change: 3,520,972  Precincts reporting: 89.04%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:29  harris-k leading by 79,574   Votes remaining (est.): 1074354  Change: 3,662,707  Precincts reporting: 90.46%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 152,735  Votes remaining (est.): 801556   Change: 3,843,437  Precincts reporting: 95.54%  Hurdle for trailing candidate: Unknown  Trend: n/a
+----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Washington - Total Votes:
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
@@ -1126,6 +1177,7 @@ Washington - Total Votes:
 2024-11-06 03:17  harris-k leading by 0        Votes remaining (est.): 4362642  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:17  harris-k leading by 0        Votes remaining (est.): 4362642  Change: 0          Precincts reporting: 0.00%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  harris-k leading by 521,716  Votes remaining (est.): 1832208  Change: 2,530,434  Precincts reporting: 58.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  harris-k leading by 511,906  Votes remaining (est.): 1787919  Change: 2,574,723  Precincts reporting: 59.02%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Washington, D.C. - Total Votes:
@@ -1148,6 +1200,7 @@ Washington, D.C. - Total Votes:
 2024-11-06 03:36  harris-k leading by 226,380  Votes remaining (est.): 88435   Change: 262,799  Precincts reporting: 75.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  harris-k leading by 227,890  Votes remaining (est.): 86149   Change: 265,085  Precincts reporting: 75.69%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:27  harris-k leading by 237,230  Votes remaining (est.): 74317   Change: 276,917  Precincts reporting: 79.17%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:34  harris-k leading by 237,230  Votes remaining (est.): 74317   Change: 276,917  Precincts reporting: 79.17%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  ---------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 West Virginia - Total Votes:
@@ -1170,6 +1223,7 @@ West Virginia - Total Votes:
 2024-11-06 03:44  trump-d leading by 280,779  Votes remaining (est.): 140776  Change: 658,622  Precincts reporting: 74.35%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 283,036  Votes remaining (est.): 129640  Change: 668,246  Precincts reporting: 74.35%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:28  trump-d leading by 299,770  Votes remaining (est.): 86098   Change: 710,431  Precincts reporting: 77.97%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 306,733  Votes remaining (est.): 66827   Change: 729,702  Precincts reporting: 78.70%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  ------------------------------  ---------------  ---------------------------  --------------------------------------  ----------
 
 Wisconsin - Total Votes:
@@ -1192,6 +1246,7 @@ Wisconsin - Total Votes:
 2024-11-06 03:44  trump-d leading by 24,626   Votes remaining (est.): 1480199  Change: 1,887,454  Precincts reporting: 55.37%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 36,031   Votes remaining (est.): 1371417  Change: 1,989,571  Precincts reporting: 56.82%  Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 75,086   Votes remaining (est.): 1127830  Change: 2,264,593  Precincts reporting: 61.07%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:46  trump-d leading by 79,961   Votes remaining (est.): 1012851  Change: 2,372,881  Precincts reporting: 63.05%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  --------------------------  -------------------------------  -----------------  ---------------------------  --------------------------------------  ----------
 
 Wyoming - Total Votes:
@@ -1214,4 +1269,5 @@ Wyoming - Total Votes:
 2024-11-06 03:41  trump-d leading by 13,453  Votes remaining (est.): 272265  Change: 32,289  Precincts reporting: 7.51%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 03:57  trump-d leading by 22,444  Votes remaining (est.): 257856  Change: 46,698  Precincts reporting: 9.27%   Hurdle for trailing candidate: Unknown  Trend: n/a
 2024-11-06 04:29  trump-d leading by 44,740  Votes remaining (est.): 211758  Change: 92,796  Precincts reporting: 34.00%  Hurdle for trailing candidate: Unknown  Trend: n/a
+2024-11-06 04:36  trump-d leading by 47,851  Votes remaining (est.): 204580  Change: 99,974  Precincts reporting: 35.32%  Hurdle for trailing candidate: Unknown  Trend: n/a
 ----------------  -------------------------  ------------------------------  --------------  ---------------------------  --------------------------------------  ----------
